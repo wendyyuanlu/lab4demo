@@ -2,7 +2,7 @@
   STYLE GUIDE STYLING
 */
 body {
-  font-family: "Nunito", Verdana, sans-serif;
+  font-family: 'Nunito', Verdana, sans-serif;
   margin-left: 15%;
   margin-right: 15%;
   background-color: #fef7ed;
@@ -93,30 +93,62 @@ code {
   color: #3f3f3f;
 }
 
-/* Styling for the submit/reset button */
-button {
-  margin: 1rem;
-  color: #6c82a4;
-  font-size: 1rem;
-  font-weight: bold;
+/*Styling for button link*/
+.button-link {
+	font-size: 1em;
+	line-height: 2em;
+	padding:4px 18px;
+  border: 1px solid #6c82a4;
+	border-radius: 3px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: #fef7ed;
+	color: #6c82a4;
+	display: inline-block;
+	text-align: center;
   text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 4px;
 }
 
-.button-submit {
-    display: inline-block;
-    background-color: #fef7ed;
-    padding: 0.5em 0.75em;
-    border-radius: 0.25em;
-    border: 3px solid #6c82a4;
-    color: #6c82a4;
-    -webkit-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+.button-link:hover {
+	background: #6c82a4;
+	color: #fff;
 }
 
-.button-submit:hover, .button-submit:focus {
-  background-color: #6c82a4;
-  color: white;
+/* Styling for the submit/reset button */
+
+button {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	padding:0px 12px;
+	border: 1px solid #6c82a4;
+	border-radius: 3px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
+
+button.button-primary {
+	background: #6c82a4;
+	color: #fff;
+}
+
+button.button-primary:hover, button.button-primary:focus {
+	background: #fff;
+	color: #6c82a4;
+}
+
+button.button-secondary {
+	background: #fff;
+	color: #6c82a4;
+}
+
+button.button-secondary:hover, button.button-secondary:focus {
+	background: #6c82a4;
+	color: #fff;
+}
+
 
 /* Styling for the Text Input Field */
 form {
@@ -124,11 +156,16 @@ form {
 }
 
 input[type=text], select, textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1em;
+  line-height: 2em;
+  padding:0px 12px;
+	margin: 0;
+  border: 1px solid #6c82a4;
+  border-radius: 3px;
   width: 40%;
-  padding: 12px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+	color: #1B1B1B;
   resize: vertical;
 }
 
@@ -138,19 +175,19 @@ input[type=text], select, textarea {
 */
 /* Styling for the Headings */
 h1 {
-  font-family: "MinionPro", Georgia, serif;
+  font-family: 'Nunito', Georgia, serif;
   font-size: 2.5rem;
   color: #65516e;
 }
 
 h2 {
-  font-family: "MinionPro", Georgia, serif;
+  font-family: 'Nunito', Georgia, serif;
   font-size: 1.5rem;
   color: #65516e;
 }
 
 h3 {
-  font-family: "MinionPro", Georgia, serif;
+  font-family: 'Nunito', Georgia, serif;
 }
 
 
