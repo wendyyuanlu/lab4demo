@@ -1,0 +1,123 @@
+/* Anchors at Top */
+.nav-content {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex: wrap;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* End of Anchors */
+
+/* Navigation */
+.main-nav {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex: wrap;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-content: center;
+}
+/* End of Navigation */
+
+/* Product Listings */
+/* Citation: Better way to set distance between flex box items (StackOverflow)*/
+.product-listings-container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex: wrap;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  padding: 5px;
+}
+
+/* Citation: A Complete Guide to Flexbox (CSS-Tricks) */
+.product-item {
+  background-color: white;
+  margin: 5px;
+  text-align: center;
+  flex: 4 1 200px;
+}
+
+@media (max-width: 50.25em) {
+    .product-item{
+      -webkit-flex-wrap: wrap;
+      -ms-flex: wrap;
+      flex-wrap: wrap;
+    }
+}
+/* End of Product Listing */
+
+/* Grid Structure */
+.flex-grid .col {
+  flex: 1;
+}
+
+.flex-grid-one {
+  display: flex;
+  justify-content: space-between;
+  height: 20rem;
+  padding-bottom: 10px;
+}
+
+.flex-grid-one .col {
+  width: 100%;
+}
+
+.flex-grid-three {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.flex-grid-three .col {
+  width: 29%;
+}
+
+.flex-grid-four {
+  display: flex;
+  justify-content: space-between;
+  height: 16rem;
+  padding-bottom: 10px;
+}
+
+.flex-grid-four .col {
+  width: 20%;
+}
+
+.flex-grid-six {
+  display: flex;
+  justify-content: space-between;
+  height: 13rem;
+  padding-bottom: 10px;
+}
+
+.flex-grid-six .col {
+  width: 13%;
+}
+/* End of Grid Structure */
+
+/* Colour Swatch Grid */
+.swatch-container {
+  display: flex;
+  justify-content: space-between;
+  height: 10rem;
+  padding-bottom: 10px;
+}
+
+.swatch-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+}
+/* End of Colour Swatch Grid */
