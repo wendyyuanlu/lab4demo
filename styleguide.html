@@ -49,8 +49,8 @@
         <p>.main-nav</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;ul class="main-nav"&gt;<br>
-          &lt;li&gt;&lt;a href="#"&gt;NAVIGATION BUTTON&lt;/a&gt;&lt;/li&gt;<br>
+        <code>&lt;ul class="main-nav"&gt;
+          &lt;li&gt;&lt;a href="#"&gt;NAVIGATION BUTTON&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         </code>
 
@@ -118,13 +118,13 @@
         <p>input[type=text], select, textarea</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;form&gt;<br>
-          &lt;input type="text" name="text-input" placeholder="Text here..."&gt;<br>
+        <code>&lt;form&gt;
+          &lt;input type="text" name="text-input" placeholder="Text here..."&gt;
           &lt;/form&gt;</code>
 
         <h3>Rendered Element:</h3>
         <form>
-          Text Input Field:<br>
+          <label>Text Input Field:</label>
           <input type="text" name="text-input" placeholder="Text here...">
         </form>
       </section>
@@ -191,13 +191,13 @@
         <p>ul</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;h2&gt;Planner Details&lt;/h2&gt;<br>
-          &lt;ul&gt;<br>
-            &lt;li&gt;12-month September 2018 to September 2019&lt;/li&gt;<br>
-            &lt;li&gt;Large size (8x11)&lt;/li&gt;<br>
-            &lt;li&gt;Rose gold spiral bound&lt;/li&gt;<br>
-            &lt;li&gt;1.6 lbs&lt;/li&gt;<br>
-            &lt;li&gt;212 pages&lt;/li&gt;<br>
+        <code>&lt;h2&gt;Planner Details&lt;/h2&gt;
+          &lt;ul&gt;
+            &lt;li&gt;12-month September 2018 to September 2019&lt;/li&gt;
+            &lt;li&gt;Large size (8x11)&lt;/li&gt;
+            &lt;li&gt;Rose gold spiral bound&lt;/li&gt;
+            &lt;li&gt;1.6 lbs&lt;/li&gt;
+            &lt;li&gt;212 pages&lt;/li&gt;
           &lt;/ul&gt;
         </code>
 
@@ -219,13 +219,13 @@
         <p>ol</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;h2&gt;Planner Details&lt;/h2&gt;<br>
-          &lt;ol&gt;<br>
-            &lt;li&gt;2018 12-Month Planner - Marble&lt;/li&gt;<br>
-            &lt;li&gt;2018 12-Month Planner - Floral&lt;/li&gt;<br>
-            &lt;li&gt;12-Month Weekly Planner - Watercolour&lt;/li&gt;<br>
-            &lt;li&gt;September 2018 to September 2019 Personal Year Planner&lt;/li&gt;<br>
-            &lt;li&gt;2017-2018 17-Month Deluxe Planner - Gradient&lt;/li&gt;<br>
+        <code>&lt;h2&gt;Planner Details&lt;/h2&gt;
+          &lt;ol&gt;
+            &lt;li&gt;2018 12-Month Planner - Marble&lt;/li&gt;
+            &lt;li&gt;2018 12-Month Planner - Floral&lt;/li&gt;
+            &lt;li&gt;12-Month Weekly Planner - Watercolour&lt;/li&gt;
+            &lt;li&gt;September 2018 to September 2019 Personal Year Planner&lt;/li&gt;
+            &lt;li&gt;2017-2018 17-Month Deluxe Planner - Gradient&lt;/li&gt;
           &lt;/ol&gt;
         </code>
 
@@ -255,16 +255,16 @@
         <p>main-nav</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;figure&gt;<br>
-            &lt;img src="img/PlanMeLogo.png" alt="Plan Me Logo" class="logo"&gt;<br>
-            &lt;/figure&gt;<br>
-            <br>
-            &lt;ul class="main-nav"&gt;<br>
-            &lt;li&gt;&lt;a href="#"&gt;CUSTOMIZE&lt;/a&gt;&lt;/li&gt;<br>
-            &lt;li&gt;&lt;a href="#"&gt;PLANNERS&lt;/a&gt;&lt;/li&gt;<br>
-            &lt;li&gt;&lt;a href="#"&gt;SALE&lt;/a&gt;&lt;/li&gt;<br>
-            &lt;li&gt;&lt;a href="#"&gt;SPECIAL SHEETS&lt;/a&gt;&lt;/li&gt;<br>
-            &lt;li&gt;&lt;a href="#"&gt;CART&lt;/a&gt;&lt;/li&gt;<br>
+        <code>&lt;figure&gt;
+            &lt;img src="img/PlanMeLogo.png" alt="Plan Me Logo" class="logo"&gt;
+            &lt;/figure&gt;
+
+            &lt;ul class="main-nav"&gt;
+            &lt;li&gt;&lt;a href="#"&gt;CUSTOMIZE&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;PLANNERS&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;SALE&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;SPECIAL SHEETS&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;CART&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
         </code>
 
@@ -283,12 +283,27 @@
       </section>
 
       <section class="styleguide">
-        <h2>Categories</h2>
+        <h2>Button Image Grid</h2>
         <h3>CSS selector:</h3>
         <p>.button-image-container (for container) / .button-image (for each item)</p>
 
         <h3>Sample code:</h3>
-        <code>
+        <code>&lt;section class=&quot;button-image-container&quot;&gt;
+            &lt;div class=&quot;button-image&quot;&gt;
+              &lt;figure&gt;&lt;img src=&quot;img/PlannerBanner1.jpg&quot; alt=&quot;Customize&quot;&gt;&lt;/figure&gt;
+              &lt;p class=&quot;button-image-overlay&quot;&gt;Customize&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;button-image&quot;&gt;
+              &lt;figure&gt;&lt;img src=&quot;img/PlannerBanner2.jpg&quot; alt=&quot;Planner&quot;&gt;&lt;/figure&gt;
+              &lt;p class=&quot;button-image-overlay&quot;&gt;Planner&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;button-image&quot;&gt;
+            &lt;figure&gt;&lt;img src=&quot;img/PlannerBanner3.jpg&quot; alt=&quot;Sale&quot;&gt;&lt;/figure&gt;
+              &lt;p class=&quot;button-image-overlay&quot;&gt;Sale&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
         </code>
 
         <h3>Rendered Element:</h3>
@@ -316,47 +331,46 @@
         <p>.product-listings-container (for container) / .product-item (for each item)</p>
 
         <h3>Sample code:</h3>
-        <code>
-          &lt;div class="product-listings-container"&gt;<br>
-            &lt;div class="product-item"&gt;<br>
-              &lt;a href="#"&gt;<br>
-                &lt;figure&gt;<br>
-                  &lt;img src="img/MarblePlanner.jpg" alt="2018<br> 12-Month Planner-Marble" style="max-width:100%"&gt;<br>
-                  &lt;figcaption&gt;2018 12-Month Planner - Marble&lt;/figcaption&gt;<br>
-                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;<br>
-                  &lt;/figure&gt;<br>
-                &lt;/a&gt;<br>
+        <code>  &lt;div class="product-listings-container"&gt;
+            &lt;div class="product-item"&gt;
+              &lt;a href="#"&gt;
+                &lt;figure&gt;
+                  &lt;img src="img/MarblePlanner.jpg" alt="2018 12-Month Planner-Marble" style="max-width:100%"&gt;
+                  &lt;figcaption&gt;2018 12-Month Planner - Marble&lt;/figcaption&gt;
+                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;
+                  &lt;/figure&gt;
+                &lt;/a&gt;
             &lt;/div&gt;
 
-            &lt;div class="product-item"&gt;<br>
-              &lt;a href="#"&gt;<br>
-                &lt;figure&gt;<br>
-                  &lt;img src="img/FloralPlanner.jpg" alt="2018<br> 12-Month Planner-Floral" style="max-width:100%"&gt;<br>
-                  &lt;figcaption&gt;2018 12-Month Planner - Floral&lt;/figcaption&gt;<br>
-                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;<br>
-                  &lt;/figure&gt;<br>
-                &lt;/a&gt;<br>
+            &lt;div class="product-item"&gt;
+              &lt;a href="#"&gt;
+                &lt;figure&gt;
+                  &lt;img src="img/FloralPlanner.jpg" alt="2018 12-Month Planner-Floral" style="max-width:100%"&gt;
+                  &lt;figcaption&gt;2018 12-Month Planner - Floral&lt;/figcaption&gt;
+                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;
+                  &lt;/figure&gt;
+                &lt;/a&gt;
             &lt;/div&gt;
 
-            &lt;div class="product-item"&gt;<br>
-              &lt;a href="#"&gt;<br>
-                &lt;figure&gt;<br>
-                  &lt;img src="img/GoldPlanner.jpg" alt="2018<br> 12-Month Planner-Gold" style="max-width:100%"&gt;<br>
-                  &lt;figcaption&gt;2018 12-Month Planner - Gold&lt;/figcaption&gt;<br>
-                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;<br>
-                  &lt;/figure&gt;<br>
-                &lt;/a&gt;<br>
+            &lt;div class="product-item"&gt;
+              &lt;a href="#"&gt;
+                &lt;figure&gt;
+                  &lt;img src="img/GoldPlanner.jpg" alt="2018 12-Month Planner-Gold" style="max-width:100%"&gt;
+                  &lt;figcaption&gt;2018 12-Month Planner - Gold&lt;/figcaption&gt;
+                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;
+                  &lt;/figure&gt;
+                &lt;/a&gt;
             &lt;/div&gt;
 
-            &lt;div class="product-item"&gt;<br>
-              &lt;a href="#"&gt;<br>
-                &lt;figure&gt;<br>
-                  &lt;img src="img/GreyPlanner.jpg" alt="2018<br> 12-Month Planner-Grey" style="max-width:100%"&gt;<br>
-                  &lt;figcaption&gt;2018 12-Month Planner - Grey&lt;/figcaption&gt;<br>
-                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;<br>
-                &lt;/figure&gt;<br>
-              &lt;/a&gt;<br>
-            &lt;/div&gt;<br>
+            &lt;div class="product-item"&gt;
+              &lt;a href="#"&gt;
+                &lt;figure&gt;
+                  &lt;img src="img/GreyPlanner.jpg" alt="2018 12-Month Planner-Grey" style="max-width:100%"&gt;
+                  &lt;figcaption&gt;2018 12-Month Planner - Grey&lt;/figcaption&gt;
+                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;
+                &lt;/figure&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
           &lt;/div&gt;
         </code>
 

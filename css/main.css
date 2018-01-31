@@ -29,6 +29,7 @@ section p {
 section code {
   background-color: #EEE;
   padding: 0.5em 0.75em;
+  white-space: pre-line;
 }
 
 hr {
@@ -173,6 +174,10 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+label {
+  display: block;
+}
+
 
 /*
   TEXT ELEMENTS -------------------
@@ -230,6 +235,8 @@ li a:hover, a:focus {
   display: inline-block;
   padding: 0.5em 0.75em 0.5em;
   text-decoration: none;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .main-nav li:after {
