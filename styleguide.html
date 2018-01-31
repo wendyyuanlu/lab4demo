@@ -5,11 +5,11 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Style Guide Template</title>
+    <title>Plan Me Styleguide</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/fonts.css">
-
     <link rel="stylesheet" href="css/flexbox.css">
 
   </head>
@@ -41,16 +41,16 @@
     <section id="interactive_elements">
 
       <!-- Default Button styling section -->
-      <section>
+      <section class="styleguide">
 
         <h2>Navigation Button</h2>
 
         <h3>CSS selector:</h3>
-        <p>.nav-main-item</p>
+        <p>.main-nav</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;ul class="main-nav"&gt;<br>
-          &lt;li&gt;&lt;a href="#"&gt;NAVIGATION BUTTON&lt;/a&gt;&lt;/li&gt;<br>
+        <code>&lt;ul class="main-nav"&gt;
+          &lt;li&gt;&lt;a href="#"&gt;NAVIGATION BUTTON&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         </code>
 
@@ -61,7 +61,7 @@
 
       </section>
 
-      <section>
+      <section class="styleguide">
         <h2>In-text link</h2>
 
         <h3>CSS selector:</h3>
@@ -74,32 +74,57 @@
         Click <a href="#" class="in-text-link">here</a> for more information.
       </section>
 
-      <section>
-        <h2>Submit/Reset Buttons</h2>
+      <section class="styleguide">
+        <h2>Button link</h2>
         <h3>CSS selector:</h3>
-        <p>.button-submit</p>
+        <p>.button-link</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;button type="button" class="button-submit"&gt;SUBMIT&lt;/button&gt;</code>
+        <code>&lt;a href=&quot;&quot; class=&quot;button-link&quot;&gt;Book Now&lt;/a&gt;</code>
 
         <h3>Rendered Element:</h3>
-        <button type="button" class="button-submit">SUBMIT</button>
+        <a href="#" class="button-link">Start Planning</a>
       </section>
 
-      <section>
+
+      <section class="styleguide">
+        <h2>Submit/Primary Buttons</h2>
+        <h3>CSS selector:</h3>
+        <p>.button-primary</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;button type="button" class="button-primary"&gt;Submit&lt;/button&gt;</code>
+
+        <h3>Rendered Element:</h3>
+        <button type="button" class="button-primary">Submit</button>
+      </section>
+
+      <section class="styleguide">
+        <h2>Reset/Secondary Buttons</h2>
+        <h3>CSS selector:</h3>
+        <p>.button-secondary</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;button type="button" class="button-secondary"&gt;Reset&lt;/button&gt;</code>
+
+        <h3>Rendered Element:</h3>
+        <button type="button" class="button-secondary">Reset</button>
+      </section>
+
+      <section class="styleguide">
         <h2>Text Input Field</h2>
         <!-- Citation: CSS Forms (W3Schools) -->
         <h3>CSS selector:</h3>
         <p>input[type=text], select, textarea</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;form&gt;<br>
-          &lt;input type="text" name="text-input" placeholder="Text here..."&gt;<br>
+        <code>&lt;form&gt;
+          &lt;input type="text" name="text-input" placeholder="Text here..."&gt;
           &lt;/form&gt;</code>
 
         <h3>Rendered Element:</h3>
         <form>
-          Text Input Field:<br>
+          <label>Text Input Field:</label>
           <input type="text" name="text-input" placeholder="Text here...">
         </form>
       </section>
@@ -148,7 +173,7 @@
           </div>
       </section>
 
-      <section>
+      <section class="styleguide">
         <h2>Paragraphs</h2>
         <h3>CSS selector:</h3>
         <p>p</p>
@@ -160,19 +185,19 @@
         <p>It's hard to find the perfect planner; one that has a cover that suits your style, layout that fits with your scheduling needs, and special sheets that you actually need. PlanMe lets you customize all of those to suit your personal preferences, so you can really use your planner to the fullest. Stay organized with style. The process of customizing your own planner has never been easier with our website, and in just a few steps your dream planner will be sent off to print and in your hands as soon as possible!</p>
       </section>
 
-      <section>
+      <section class="styleguide">
         <h2>Bulleted Lists</h2>
         <h3>CSS selector:</h3>
         <p>ul</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;h2&gt;Planner Details&lt;/h2&gt;<br>
-          &lt;ul&gt;<br>
-            &lt;li&gt;12-month September 2018 to September 2019&lt;/li&gt;<br>
-            &lt;li&gt;Large size (8x11)&lt;/li&gt;<br>
-            &lt;li&gt;Rose gold spiral bound&lt;/li&gt;<br>
-            &lt;li&gt;1.6 lbs&lt;/li&gt;<br>
-            &lt;li&gt;212 pages&lt;/li&gt;<br>
+        <code>&lt;h2&gt;Planner Details&lt;/h2&gt;
+          &lt;ul&gt;
+            &lt;li&gt;12-month September 2018 to September 2019&lt;/li&gt;
+            &lt;li&gt;Large size (8x11)&lt;/li&gt;
+            &lt;li&gt;Rose gold spiral bound&lt;/li&gt;
+            &lt;li&gt;1.6 lbs&lt;/li&gt;
+            &lt;li&gt;212 pages&lt;/li&gt;
           &lt;/ul&gt;
         </code>
 
@@ -188,19 +213,19 @@
 
       </section>
 
-      <section>
+      <section class="styleguide">
         <h2>Numbered Lists</h2>
         <h3>CSS selector:</h3>
         <p>ol</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;h2&gt;Planner Details&lt;/h2&gt;<br>
-          &lt;ol&gt;<br>
-            &lt;li&gt;2018 12-Month Planner - Marble&lt;/li&gt;<br>
-            &lt;li&gt;2018 12-Month Planner - Floral&lt;/li&gt;<br>
-            &lt;li&gt;12-Month Weekly Planner - Watercolour&lt;/li&gt;<br>
-            &lt;li&gt;September 2018 to September 2019 Personal Year Planner&lt;/li&gt;<br>
-            &lt;li&gt;2017-2018 17-Month Deluxe Planner - Gradient&lt;/li&gt;<br>
+        <code>&lt;h2&gt;Planner Details&lt;/h2&gt;
+          &lt;ol&gt;
+            &lt;li&gt;2018 12-Month Planner - Marble&lt;/li&gt;
+            &lt;li&gt;2018 12-Month Planner - Floral&lt;/li&gt;
+            &lt;li&gt;12-Month Weekly Planner - Watercolour&lt;/li&gt;
+            &lt;li&gt;September 2018 to September 2019 Personal Year Planner&lt;/li&gt;
+            &lt;li&gt;2017-2018 17-Month Deluxe Planner - Gradient&lt;/li&gt;
           &lt;/ol&gt;
         </code>
 
@@ -224,22 +249,22 @@
     <!-- COMBINED ELEMENTS SECTION // -->
     <section id="combined_elements">
 
-      <section>
+      <section class="styleguide">
         <h2>Main Navigation</h2>
         <h3>CSS selector:</h3>
         <p>main-nav</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;figure&gt;<br>
-            &lt;img src="img/PlanMeLogo.png" alt="Plan Me Logo" class="logo"&gt;<br>
-            &lt;/figure&gt;<br>
-            <br>
-            &lt;ul class="main-nav"&gt;<br>
-            &lt;li&gt;&lt;a href="#"&gt;CUSTOMIZE&lt;/a&gt;&lt;/li&gt;<br>
-            &lt;li&gt;&lt;a href="#"&gt;PLANNERS&lt;/a&gt;&lt;/li&gt;<br>
-            &lt;li&gt;&lt;a href="#"&gt;SALE&lt;/a&gt;&lt;/li&gt;<br>
-            &lt;li&gt;&lt;a href="#"&gt;SPECIAL SHEETS&lt;/a&gt;&lt;/li&gt;<br>
-            &lt;li&gt;&lt;a href="#"&gt;CART&lt;/a&gt;&lt;/li&gt;<br>
+        <code>&lt;figure&gt;
+            &lt;img src="img/PlanMeLogo.png" alt="Plan Me Logo" class="logo"&gt;
+            &lt;/figure&gt;
+
+            &lt;ul class="main-nav"&gt;
+            &lt;li&gt;&lt;a href="#"&gt;CUSTOMIZE&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;PLANNERS&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;SALE&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;SPECIAL SHEETS&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;CART&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
         </code>
 
@@ -257,53 +282,95 @@
         </ul>
       </section>
 
-      <section>
+      <section class="styleguide">
+        <h2>Button Image Grid</h2>
+        <h3>CSS selector:</h3>
+        <p>.button-image-container (for container) / .button-image (for each item)</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;section class=&quot;button-image-container&quot;&gt;
+            &lt;div class=&quot;button-image&quot;&gt;
+              &lt;figure&gt;&lt;img src=&quot;img/PlannerBanner1.jpg&quot; alt=&quot;Customize&quot;&gt;&lt;/figure&gt;
+              &lt;p class=&quot;button-image-overlay&quot;&gt;Customize&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;button-image&quot;&gt;
+              &lt;figure&gt;&lt;img src=&quot;img/PlannerBanner2.jpg&quot; alt=&quot;Planner&quot;&gt;&lt;/figure&gt;
+              &lt;p class=&quot;button-image-overlay&quot;&gt;Planner&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;button-image&quot;&gt;
+            &lt;figure&gt;&lt;img src=&quot;img/PlannerBanner3.jpg&quot; alt=&quot;Sale&quot;&gt;&lt;/figure&gt;
+              &lt;p class=&quot;button-image-overlay&quot;&gt;Sale&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
+        </code>
+
+        <h3>Rendered Element:</h3>
+        <section class="button-image-container">
+          <div class="button-image">
+            <figure><img src="img/PlannerBanner1.jpg" alt="Customize"></figure>
+            <p class="button-image-overlay">Customize</p>
+          </div>
+
+          <div class="button-image">
+            <figure><img src="img/PlannerBanner2.jpg" alt="Planner"></figure>
+            <p class="button-image-overlay">Planner</p>
+          </div>
+
+          <div class="button-image">
+          <figure><img src="img/PlannerBanner3.jpg" alt="Sale"></figure>
+            <p class="button-image-overlay">Sale</p>
+          </div>
+        </section>
+      </section>
+
+      <section class="styleguide">
         <h2>Product Listing</h2>
         <h3>CSS selector:</h3>
         <p>.product-listings-container (for container) / .product-item (for each item)</p>
 
         <h3>Sample code:</h3>
-        <code>
-          &lt;div class="product-listings-container"&gt;<br>
-            &lt;div class="product-item"&gt;<br>
-              &lt;a href="#"&gt;<br>
-                &lt;figure&gt;<br>
-                  &lt;img src="img/MarblePlanner.jpg" alt="2018<br> 12-Month Planner-Marble" style="max-width:100%"&gt;<br>
-                  &lt;figcaption&gt;2018 12-Month Planner - Marble&lt;/figcaption&gt;<br>
-                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;<br>
-                  &lt;/figure&gt;<br>
-                &lt;/a&gt;<br>
+        <code>  &lt;div class="product-listings-container"&gt;
+            &lt;div class="product-item"&gt;
+              &lt;a href="#"&gt;
+                &lt;figure&gt;
+                  &lt;img src="img/MarblePlanner.jpg" alt="2018 12-Month Planner-Marble" style="max-width:100%"&gt;
+                  &lt;figcaption&gt;2018 12-Month Planner - Marble&lt;/figcaption&gt;
+                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;
+                  &lt;/figure&gt;
+                &lt;/a&gt;
             &lt;/div&gt;
 
-            &lt;div class="product-item"&gt;<br>
-              &lt;a href="#"&gt;<br>
-                &lt;figure&gt;<br>
-                  &lt;img src="img/FloralPlanner.jpg" alt="2018<br> 12-Month Planner-Floral" style="max-width:100%"&gt;<br>
-                  &lt;figcaption&gt;2018 12-Month Planner - Floral&lt;/figcaption&gt;<br>
-                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;<br>
-                  &lt;/figure&gt;<br>
-                &lt;/a&gt;<br>
+            &lt;div class="product-item"&gt;
+              &lt;a href="#"&gt;
+                &lt;figure&gt;
+                  &lt;img src="img/FloralPlanner.jpg" alt="2018 12-Month Planner-Floral" style="max-width:100%"&gt;
+                  &lt;figcaption&gt;2018 12-Month Planner - Floral&lt;/figcaption&gt;
+                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;
+                  &lt;/figure&gt;
+                &lt;/a&gt;
             &lt;/div&gt;
 
-            &lt;div class="product-item"&gt;<br>
-              &lt;a href="#"&gt;<br>
-                &lt;figure&gt;<br>
-                  &lt;img src="img/GoldPlanner.jpg" alt="2018<br> 12-Month Planner-Gold" style="max-width:100%"&gt;<br>
-                  &lt;figcaption&gt;2018 12-Month Planner - Gold&lt;/figcaption&gt;<br>
-                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;<br>
-                  &lt;/figure&gt;<br>
-                &lt;/a&gt;<br>
+            &lt;div class="product-item"&gt;
+              &lt;a href="#"&gt;
+                &lt;figure&gt;
+                  &lt;img src="img/GoldPlanner.jpg" alt="2018 12-Month Planner-Gold" style="max-width:100%"&gt;
+                  &lt;figcaption&gt;2018 12-Month Planner - Gold&lt;/figcaption&gt;
+                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;
+                  &lt;/figure&gt;
+                &lt;/a&gt;
             &lt;/div&gt;
 
-            &lt;div class="product-item"&gt;<br>
-              &lt;a href="#"&gt;<br>
-                &lt;figure&gt;<br>
-                  &lt;img src="img/GreyPlanner.jpg" alt="2018<br> 12-Month Planner-Grey" style="max-width:100%"&gt;<br>
-                  &lt;figcaption&gt;2018 12-Month Planner - Grey&lt;/figcaption&gt;<br>
-                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;<br>
-                &lt;/figure&gt;<br>
-              &lt;/a&gt;<br>
-            &lt;/div&gt;<br>
+            &lt;div class="product-item"&gt;
+              &lt;a href="#"&gt;
+                &lt;figure&gt;
+                  &lt;img src="img/GreyPlanner.jpg" alt="2018 12-Month Planner-Grey" style="max-width:100%"&gt;
+                  &lt;figcaption&gt;2018 12-Month Planner - Grey&lt;/figcaption&gt;
+                  &lt;figcaption&gt;$24.00&lt;/figcaption&gt;
+                &lt;/figure&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
           &lt;/div&gt;
         </code>
 
@@ -353,7 +420,7 @@
 
       </section>
 
-      <section>
+      <section class="styleguide">
         <!-- Citation: Flex Box Grid (Coyier, C.) -->
         <h2>Website Grid Structure</h2>
 
@@ -385,7 +452,7 @@
 
       </section>
 
-      <section>
+      <section class="styleguide">
         <h2>Website Colour Swatches</h2>
           <div class="swatch-container">
             <div class="swatch-box peach">Background #FEF7ED</div>
