@@ -33,6 +33,14 @@
 	flex-wrap: wrap;
 }
 
+.button-image-container2 {
+  margin-bottom: 1em;
+}
+
+.button-image-container2:last-child {
+  margin-bottom: 0;
+}
+
 /*Flexbox code from: https://forums.adobe.com/thread/2370545*/
 .button-image {
 	display: flex;
@@ -133,16 +141,18 @@
 
 	.button-image-container {
 	 flex-wrap: nowrap;
-	}
+	} 
+  
+  .button-image-container2 {
+    margin: 0px 1em 1em 0;
+  }
 
-	.button-image {
-	 margin-right: 1em;
-	}
   
   /*nth-child code from: https://css-tricks.com/how-nth-child-works/*/
-  .button-image:nth-of-type(3n+3) {
-    margin-right: 0px;
+  .button-image-container2:nth-of-type(3n+3) {
+    margin-right: 0;
   }
+  
 	.product-category-container {
 		flex-wrap: nowrap;
 	}

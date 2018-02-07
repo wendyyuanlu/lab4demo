@@ -162,7 +162,6 @@ button.button-secondary:hover, button.button-secondary:focus {
 
 /* Styling for the Text Input Field */
 form {
-  margin: 1rem;
 }
 
 input[type=text], select, textarea {
@@ -173,10 +172,11 @@ input[type=text], select, textarea {
 	margin: 0;
   border: 1px solid #6c82a4;
   border-radius: 3px;
-  width: 40%;
   box-sizing: border-box;
 	color: #1B1B1B;
   resize: vertical;
+  width: 100%;
+  margin-bottom: 1em;
 }
 
 label {
@@ -194,7 +194,8 @@ h1 {
   color: #65516e;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 8px;
+  letter-spacing: 10px;
+  text-align: center;
 }
 
 h2 {
