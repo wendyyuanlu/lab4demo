@@ -69,6 +69,7 @@ code {
 
 .banner {
   max-width: 100%;
+  margin-bottom:1em;
 }
 
 
@@ -278,11 +279,11 @@ nav ul li:after {
 
 
 .menu-browse {
-  width: calc(50% - 70px);
+  width: calc(50% - 80px);
 }
 
 .menu-user {
-  width: calc(50% - 70px);
+  width: calc(50% - 80px);
   text-align: right;
 }
 
@@ -298,7 +299,7 @@ nav ul li:after {
 }
 
 .menu-logo {
-  width: 140px;
+  width: 160px;
 }
 
 /* Styling for Categories */
