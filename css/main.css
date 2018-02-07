@@ -227,51 +227,79 @@ ol {
 }
 
 /* Styling for the Main Navigation */
-ul.main-nav {
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  display: inline;
+  list-style-type: none; 
   -webkit-padding-start: 0;
   text-indent: 0;
   padding-left: 0;
 }
 
-ul.main-nav li a {
+nav ul li {
+  display: inline;
+  padding-right: 30px;
+}
+
+nav ul li:last-child {
+  padding-right: 0px;
+}
+
+
+nav ul li a {
   color: #6c82a4;
   font-size: 1rem;
-  font-weight: bold;
   text-decoration: none;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 
-.main-nav li a:hover, a:focus {
+nav ul li a:hover, a:focus {
   color: #3f3f3f;
+  text-decoration: underline;
 }
 
-.main-nav li {
-  display: inline-block;
-  padding: 0.5em 0.75em 0.5em;
-  text-decoration: none;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  list-style-type: none;
-}
 
-.main-nav li:after {
+nav ul li:after {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 
 
 /* Citation: Line below link on hover (StackOverflow)*/
-.main-nav li:after, .main-nav li:after{
+/*nav ul li:after, .main-nav li:after{
   content: "";
-  display: block;
+  display: inline-block;
   width: 70%;
   border-bottom: 3px solid #fef7ed;
   margin: 0 auto;
 }
 
-.main-nav li:hover:after, .main-nav li:focus:after {
+nav ul li:hover:after, .main-nav li:focus:after {
   border-bottom: 3px solid #3f3f3f;
+}*/
+
+.menu-browse {
+  width: calc(50% - 70px);
+}
+
+.menu-user {
+  width: calc(50% - 70px);
+  text-align: right;
+}
+
+.menu-user span {
+  padding-left: 10px;
+}
+
+.menu-logo {
+  width: 140px;
 }
 
 /* Styling for Categories */
