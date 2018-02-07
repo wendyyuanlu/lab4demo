@@ -183,6 +183,10 @@ label {
   display: block;
 }
 
+input[type=text], select, textarea, .quatity-field {
+  width: 20%;
+}
+
 
 /*
   TEXT ELEMENTS -------------------
@@ -413,7 +417,12 @@ p.price {
   text-decoration: underline;
 }
 
+/* Styling for Product Detailed View */
 
+.product-detail-image {
+  background-color: #fff;
+  margin: 1em 2em 1em 0;
+}
 
 /* Styling for the Grid Structure */
 .col {
