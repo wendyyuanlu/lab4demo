@@ -67,6 +67,10 @@ code {
 
 }
 
+.banner {
+  max-width: 100%;
+}
+
 
 /*
   INTERACTIVE ELEMENTS -------------------
@@ -161,7 +165,7 @@ form {
 }
 
 input[type=text], select, textarea {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', Verdana, sans-serif;
   font-size: 1em;
   line-height: 2em;
   padding:0px 12px;
@@ -184,19 +188,19 @@ label {
 */
 /* Styling for the Headings */
 h1 {
-  font-family: 'Nunito', Georgia, serif;
+  font-family: 'Nunito', Verdana, sans-serif;
   font-size: 2.5rem;
   color: #65516e;
 }
 
 h2 {
-  font-family: 'Nunito', Georgia, serif;
+  font-family: 'Nunito', Verdana, sans-serif;
   font-size: 1.5rem;
   color: #65516e;
 }
 
 h3 {
-  font-family: 'Nunito', Georgia, serif;
+  font-family: 'Nunito', Verdana, sans-serif;
 }
 
 /* Styling for Lists */
@@ -232,6 +236,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top:20px;
 }
 
 nav ul {
@@ -382,7 +387,7 @@ p.price {
 .product-item {
   background-color: #fff;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 1em;
 }
 
 .product-item:last-child {
