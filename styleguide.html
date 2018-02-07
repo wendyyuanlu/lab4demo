@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/flexbox.css">
 
   </head>
@@ -255,17 +254,7 @@
           <p>main-nav</p>
 
           <h3>Sample code:</h3>
-          <code>&lt;figure&gt;
-              &lt;img src="img/PlanMeLogo.png" alt="Plan Me Logo" class="logo"&gt;
-              &lt;/figure&gt;
-
-              &lt;ul class="main-nav"&gt;
-              &lt;li&gt;&lt;a href="#"&gt;CUSTOMIZE&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href="#"&gt;PLANNERS&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href="#"&gt;SALE&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href="#"&gt;SPECIAL SHEETS&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href="#"&gt;CART&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
+          <code>
           </code>
 
           <h3>Rendered Element:</h3>
@@ -284,8 +273,8 @@
 
             <div class="menu-user">
               <ul>
-                <li><a href="account.html"><img src="img/icon-account.png" alt="My Account"><span>My Account</span></a></li>
-                <li><a href="cart.html"><img src="img/icon-cart.png" alt="Shopping Cart"><span>Shopping Cart</span></a></li>
+                <li><a href="account.html"><img src="img/icon-account-x3.png" alt="My Account"><span>My Account</span></a></li>
+                <li><a href="cart.html"><img src="img/icon-cart-x3.png" alt="Shopping Cart"><span>Shopping Cart</span></a></li>
               </ul>
             </div>
           </nav>
@@ -297,39 +286,24 @@
           <p>.button-image-container (for container) / .button-image (for each item)</p>
 
           <h3>Sample code:</h3>
-          <code>&lt;section class="button-image-container"&gt;
-              &lt;div class="button-image"&gt;
-                &lt;figure&gt;&lt;img src="img/PlannerBanner1.jpg" alt="Customize"&gt;&lt;/figure&gt;
-                &lt;p class="button-image-overlay"&gt;Customize&lt;/p&gt;
-              &lt;/div&gt;
-
-              &lt;div class="button-image"&gt;
-                &lt;figure&gt;&lt;img src="img/PlannerBanner2.jpg" alt="Planner"&gt;&lt;/figure&gt;
-                &lt;p class="button-image-overlay"&gt;Planner&lt;/p&gt;
-              &lt;/div&gt;
-
-              &lt;div class="button-image"&gt;
-              &lt;figure&gt;&lt;img src="img/PlannerBanner3.jpg" alt="Sale"&gt;&lt;/figure&gt;
-                &lt;p class="button-image-overlay"&gt;Sale&lt;/p&gt;
-              &lt;/div&gt;
-            &lt;/section&gt;
+          <code>
           </code>
 
           <h3>Rendered Element:</h3>
           <section class="button-image-container">
             <div class="button-image">
               <figure><img src="img/PlannerBanner1.jpg" alt="Customize"></figure>
-              <p class="button-image-overlay">Customize</p>
+              <p class="button-image-overlay"><a href="customize.html">Customize</a></p>
             </div>
 
             <div class="button-image">
-              <figure><img src="img/PlannerBanner2.jpg" alt="Planner"></figure>
-              <p class="button-image-overlay">Planner</p>
+              <figure><img src="img/PlannerBanner2.jpg" alt="Planners"></figure>
+              <p class="button-image-overlay"><a href="planners.html">Planners</a></p>
             </div>
 
             <div class="button-image">
-            <figure><img src="img/PlannerBanner3.jpg" alt="Sale"></figure>
-              <p class="button-image-overlay">Sale</p>
+            <figure><img src="img/PlannerBanner3.jpg" alt="Sheets"></figure>
+              <p class="button-image-overlay"><a href="sheets.html">Sheets</a></p>
             </div>
           </section>
         </section>
@@ -421,47 +395,7 @@
           <p>.product-listings-container (for container) / .product-item (for each item)</p>
 
           <h3>Sample code:</h3>
-          <code>  &lt;div class="product-listings-container"&gt;
-              &lt;div class="product-item"&gt;
-                &lt;a href="#"&gt;
-                  &lt;figure&gt;
-                    &lt;img src="img/MarblePlanner.jpg" alt="2018 12-Month Planner-Marble" style="max-width:100%"&gt;
-                    &lt;figcaption&gt;2018 12-Month Planner - Marble&lt;/figcaption&gt;
-                    &lt;figcaption&gt;$24.00&lt;/figcaption&gt;
-                    &lt;/figure&gt;
-                  &lt;/a&gt;
-              &lt;/div&gt;
-
-              &lt;div class="product-item"&gt;
-                &lt;a href="#"&gt;
-                  &lt;figure&gt;
-                    &lt;img src="img/FloralPlanner.jpg" alt="2018 12-Month Planner-Floral" style="max-width:100%"&gt;
-                    &lt;figcaption&gt;2018 12-Month Planner - Floral&lt;/figcaption&gt;
-                    &lt;figcaption&gt;$24.00&lt;/figcaption&gt;
-                    &lt;/figure&gt;
-                  &lt;/a&gt;
-              &lt;/div&gt;
-
-              &lt;div class="product-item"&gt;
-                &lt;a href="#"&gt;
-                  &lt;figure&gt;
-                    &lt;img src="img/GoldPlanner.jpg" alt="2018 12-Month Planner-Gold" style="max-width:100%"&gt;
-                    &lt;figcaption&gt;2018 12-Month Planner - Gold&lt;/figcaption&gt;
-                    &lt;figcaption&gt;$24.00&lt;/figcaption&gt;
-                    &lt;/figure&gt;
-                  &lt;/a&gt;
-              &lt;/div&gt;
-
-              &lt;div class="product-item"&gt;
-                &lt;a href="#"&gt;
-                  &lt;figure&gt;
-                    &lt;img src="img/GreyPlanner.jpg" alt="2018 12-Month Planner-Grey" style="max-width:100%"&gt;
-                    &lt;figcaption&gt;2018 12-Month Planner - Grey&lt;/figcaption&gt;
-                    &lt;figcaption&gt;$24.00&lt;/figcaption&gt;
-                  &lt;/figure&gt;
-                &lt;/a&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
+          <code>
           </code>
 
           <h3>Rendered Element:</h3>

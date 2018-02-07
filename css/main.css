@@ -236,7 +236,7 @@ nav {
 
 nav ul {
   display: inline;
-  list-style-type: none; 
+  list-style-type: none;
   -webkit-padding-start: 0;
   text-indent: 0;
   padding-left: 0;
@@ -272,19 +272,6 @@ nav ul li:after {
 }
 
 
-/* Citation: Line below link on hover (StackOverflow)*/
-/*nav ul li:after, .main-nav li:after{
-  content: "";
-  display: inline-block;
-  width: 70%;
-  border-bottom: 3px solid #fef7ed;
-  margin: 0 auto;
-}
-
-nav ul li:hover:after, .main-nav li:focus:after {
-  border-bottom: 3px solid #3f3f3f;
-}*/
-
 .menu-browse {
   width: calc(50% - 70px);
 }
@@ -295,7 +282,14 @@ nav ul li:hover:after, .main-nav li:focus:after {
 }
 
 .menu-user span {
-  padding-left: 10px;
+   padding-left: 10px; 
+  vertical-align:middle;
+}
+
+.menu-user img {
+  max-width: 23px;
+  max-height:23px; 
+  vertical-align:middle;
 }
 
 .menu-logo {
@@ -348,6 +342,11 @@ nav ul li:hover:after, .main-nav li:focus:after {
 	border-radius: 3px;
 }
 
+.button-image a {
+  color: #fff;
+  text-decoration: none;
+}
+
 
 /*code from: https://forums.adobe.com/thread/2370545*/
 .button-image-overlay {
@@ -379,9 +378,19 @@ p.price {
 
 
 /* Styling for Product Listings */
+
+.product-item {
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.product-item:last-child {
+  margin-bottom: 0;
+}
+
 .product-item img {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
   max-width: 100%;
 }
 
@@ -394,6 +403,8 @@ p.price {
   color: #6c82a4;
   text-decoration: underline;
 }
+
+
 
 /* Styling for the Grid Structure */
 .col {
