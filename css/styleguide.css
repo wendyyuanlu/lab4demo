@@ -1,0 +1,91 @@
+section.styleguide {
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  white-space: pre-line;
+}
+
+hr {
+  width: 20%;
+  margin-top: 2rem;
+}
+
+code {
+  display: inline-block;
+}
+
+section p {
+  margin-top: 0;
+}
+
+/* Grid Structure */
+.flex-grid .col {
+  flex: 1;
+}
+
+.flex-grid-one {
+  display: flex;
+  justify-content: space-between;
+  height: 20rem;
+  padding-bottom: 10px;
+}
+
+.flex-grid-one .col {
+  width: 100%;
+}
+
+.flex-grid-three {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.flex-grid-three .col {
+  width: 29%;
+}
+
+.flex-grid-four {
+  display: flex;
+  justify-content: space-between;
+  height: 16rem;
+  padding-bottom: 10px;
+}
+
+.flex-grid-four .col {
+  width: 20%;
+}
+
+.flex-grid-six {
+  display: flex;
+  justify-content: space-between;
+  height: 13rem;
+  padding-bottom: 10px;
+}
+
+.flex-grid-six .col {
+  width: 13%;
+}
+/* End of Grid Structure */
+
+/* Colour Swatch Grid */
+.swatch-container {
+  display: flex;
+  justify-content: space-between;
+  height: 10rem;
+  padding-bottom: 10px;
+}
+
+.swatch-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+}
+/* End of Colour Swatch Grid */
