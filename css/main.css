@@ -523,8 +523,12 @@ p.price {
     position: fixed;
     width: 100%;
     height: 100%;
-    margin:-63px 0 0 -12%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     z-index: 1000;
+    transition: all 0.5s ease;
 	}
   
   nav .menu-browse ul li {
@@ -547,8 +551,9 @@ p.price {
     right: 30px;
     z-index: 1400;
     color: #fff;
-    font-size: 1.5em;
-    
+    font-size: 1.2em;
+    font-weight: 300;
+    transform:scale(1.3,1);
    }
 
   nav input[type="checkbox"]#menu-expand:checked ~ ul{
@@ -573,6 +578,18 @@ p.price {
 }
 
 @media (max-width: 600px) {
+  
+  nav .menu-browse, nav .menu-user {
+    width: calc(50% - 50px);
+  }
+  
+  nav ul li {
+    padding-right:3%;
+  }
+  
+  nav .menu-logo {
+    width:100px;
+  }
     .main-nav li{
         padding-bottom: 1rem;
     }
