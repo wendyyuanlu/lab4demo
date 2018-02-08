@@ -183,10 +183,19 @@ label {
   display: block;
 }
 
-input[type=text], select, textarea, .quatity-field {
+input[type=quantity] {
+  font-size: 1em;
+  line-height: 2em;
+  padding:0px 12px;
+  margin: 0;
+  border: 1px solid #6c82a4;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #1B1B1B;
+  resize: vertical;
   width: 20%;
+  margin-bottom: 1em;
 }
-
 
 /*
   TEXT ELEMENTS -------------------
@@ -423,6 +432,7 @@ p.price {
   background-color: #fff;
   margin: 1em 2em 1em 0;
 }
+
 
 /* Styling for the Grid Structure */
 .col {
