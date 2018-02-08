@@ -433,6 +433,34 @@ p.price {
   margin: 1em 2em 1em 0;
 }
 
+/* Styling for Cart */
+
+.cart-container2 {
+  max-width: 75%;
+}
+
+.cart-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cart-item {
+  background-color: #fff;
+  max-height: 250px;
+  max-width: 300px;
+}
+
+.cart-item-details {
+  background-color: #fff;
+  padding: 0px 30px;
+}
+
+.cart-info {
+  background-color: #fff;
+  /* margin-left: 20px; */
+  padding: 0px 40px;
+}
+
 
 /* Styling for the Grid Structure */
 .col {
