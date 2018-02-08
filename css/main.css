@@ -478,39 +478,6 @@ p.price {
   text-align: center;
 }
 
-/* Styling for the Grid Structure */
-.col {
-  background-color: #65516e;
-  padding: 1em;
-  color: white;
-}
-
-/* Styling Colour Swatches */
-.swatch-box {
-  width: 20%;
-  padding-bottom: 2rem;
-  border: 1px solid #3f3f3f;
-}
-
-.blue {
-  background: #6c82a4;
-  color: white;
-}
-
-.purple {
-  background: #65516e;
-  color: white;
-}
-
-.grey {
-  background: #3f3f3f;
-  color: white;
-}
-
-.full-width {
-	max-width: 100%;
-}
-
 
 /*
   COMBINED ELEMENTS -------------------
