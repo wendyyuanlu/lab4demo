@@ -73,16 +73,6 @@
 
 /* Product Detailed View */
 
-/* .product-detail-container {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-
-  flex-wrap: wrap;
-
-  justify-content: center;
-} */
-
 .product-detail-container {
   display: -webkit-flex;
   display: -ms-flex;
@@ -110,7 +100,7 @@
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    
+
     -webkit-flex-direction: column;
     flex-direction: column;
 
@@ -127,6 +117,44 @@
 }
 
 /* End of Product Detailed View */
+
+/* Cart */
+
+.cart-container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  flex-direction: row;
+
+  -webkit-flex-wrap: nowrap;
+  -ms-flex: nowrap;
+  flex-wrap: nowrap;
+
+
+  justify-content: space-between;
+}
+
+.cart-container2 {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+@media (max-width:50.25em) {
+  .cart-container {
+    flex-wrap: wrap;
+  }
+
+  .cart-container2 {
+    flex-wrap: wrap;
+  }
+}
+
+/* End of Cart */
 
 /* Grid Structure */
 .flex-grid .col {
