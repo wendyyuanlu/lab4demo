@@ -445,7 +445,7 @@ p.price {
   max-width: 100%;
   background-color: #fff;
   width: 30%;
-  height: 200px;
+  height: 50%;
   padding: 20px;
   text-align: center;
 }
@@ -456,6 +456,18 @@ p.price {
 
 .cart-info h3 {
   text-align: center;
+}
+
+@media (max-width:900px) {
+  .cart-container2 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .cart-info {
+    width: 100%;
+    margin-top: 10px;
+  }
 }
 
 /* Styling for Checkout Details */
@@ -473,23 +485,82 @@ p.price {
   max-width: 100%;
   background-color: #fff;
   width: 30%;
-  height: 200px;
+  height: 50%;
   padding: 20px;
   text-align: center;
 }
 
+@media (max-width:900px) {
+  .shipping-info {
+    width: 100%;
+    margin: 0;
+  }
+
+  .checkout-price-info {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
 /* Styling for Order Confirmation */
 .confirm-personal-info {
+  max-width: 100%;
+  background-color: #fff;
+  width: 70%;
   display: block;
-  width: 10px;
-  height: 10px;
-  color: #fff;
+  padding: 20px;
+  margin: 0 40px 0 0;
 }
 
 .confirm-order-info {
-
+  max-width: 100%;
+  background-color: #fff;
+  width: 30%;
+  display: block;
+  height: 50%;
+  padding: 20px;
+  text-align: center;
 }
 
+.confirm-order-item {
+  max-width: 100%;
+  background-color: #fff;
+  width: 62%;
+  display: block;
+  padding: 20px;
+  margin: 20px 40px 0 0;
+}
+
+.confirm-order-img img {
+  max-width: 100%;
+}
+
+.confirm-order-img {
+  max-width: 100%;
+  width: 35%;
+}
+
+@media (max-width:900px) {
+  .confirm-order-img {
+    width: 100%;
+  }
+
+  .confirm-personal-info {
+    width: 100%;
+    margin: 0;
+  }
+
+  .confirm-order-info {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .confirm-order-item {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
 
 /*
   COMBINED ELEMENTS -------------------

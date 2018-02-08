@@ -138,12 +138,12 @@
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+
   flex-direction: row;
   flex-wrap: nowrap;
-
 }
 
-@media (max-width:50.25em) {
+@media (max-width:900px) {
   .cart-container {
     flex-wrap: wrap;
   }
@@ -170,16 +170,11 @@
   justify-content: space-between;
 }
 
-
-.shipping-info {
-  flex-grow: 2;
-}
-
 .checkout-price-info {
   flex-grow: 1;
 }
 
-@media (max-width:50.25em) {
+@media (max-width:900px) {
   .checkout-container {
     flex-wrap: wrap;
   }
@@ -189,6 +184,46 @@
 
 /* Order Confirmation */
 
+.order-confirm-container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  flex-direction: row;
+
+  -webkit-flex-wrap: nowrap;
+  -ms-flex: nowrap;
+  flex-wrap: nowrap;
+
+  justify-content: space-between;
+}
+
+@media (max-width:900px) {
+  .order-confirm-container {
+    flex-wrap: wrap;
+  }
+}
+
+.confirm-personal-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width:900px) {
+  .confirm-personal-info {
+    flex-wrap: wrap;
+  }
+}
+
+.confirm-order-item {
+  display: flex;
+}
+
+@media (max-width:900px) {
+  .confirm-order-item {
+    flex-wrap: wrap;
+  }
+}
 
 /* End of Order Confirmation */
 
