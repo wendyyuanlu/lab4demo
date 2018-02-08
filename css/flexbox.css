@@ -131,7 +131,6 @@
   -ms-flex: nowrap;
   flex-wrap: nowrap;
 
-
   justify-content: space-between;
 }
 
@@ -156,6 +155,37 @@
 
 /* End of Cart */
 
+/* Checkout */
+.checkout-container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  flex-direction: row;
+
+  -webkit-flex-wrap: nowrap;
+  -ms-flex: nowrap;
+  flex-wrap: nowrap;
+
+  justify-content: space-between;
+}
+
+
+.shipping-info {
+  flex-grow: 2;
+}
+
+.checkout-price-info {
+  flex-grow: 1;
+}
+
+@media (max-width:50.25em) {
+  .checkout-container {
+    flex-wrap: wrap;
+  }
+}
+
+/* End of Checkout */
 
 @media (min-width:900px) {
 

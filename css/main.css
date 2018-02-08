@@ -417,7 +417,7 @@ p.price {
 /* Styling for Cart */
 
 .cart-container2 {
-  max-width: 75%;
+  width: 75%;
 }
 
 .cart-item img {
@@ -438,10 +438,45 @@ p.price {
 
 .cart-info {
   background-color: #fff;
-  /* margin-left: 20px; */
-  padding: 0px 40px;
+  width: 25%;
+  padding: 20px 40px;
+  text-align: center;
 }
 
+.promo-code {
+  text-align: left;
+}
+
+.cart-info h3 {
+  text-align: center;
+}
+
+/* Styling for Checkout Details */
+
+.checkout-container {
+}
+
+.shipping-info {
+  max-width: 100%;
+  background-color: #fff;
+  display: block;
+  padding: 20px;
+  width: 70%;
+  margin: 0 40px 0 0;
+}
+
+.billing-info {
+  margin-top: 10px;
+}
+
+.checkout-price-info {
+  background-color: #fff;
+  /* margin-left: 20px; */
+  width: 30%;
+  height: 200px;
+  padding: 1rem 40px;
+  text-align: center;
+}
 
 /* Styling for the Grid Structure */
 .col {
@@ -502,12 +537,12 @@ p.price {
     z-index: 1000;
     transition: all 0.5s ease;
 	}
-  
+
   nav .menu-browse ul li {
     text-align: center;
     padding-right: 0;
   }
-  
+
   nav .menu-browse ul li a{
     font-size: 1.5em;
     line-height: 2.5em;
@@ -515,7 +550,7 @@ p.price {
     text-transform: uppercase;
     color: #fff;
   }
-  
+
   nav input[type="checkbox"]:checked ~ label:before{
     content:"X";
     position: absolute;
@@ -550,15 +585,15 @@ p.price {
 }
 
 @media (max-width: 600px) {
-  
+
   nav .menu-browse, nav .menu-user {
     width: calc(50% - 50px);
   }
-  
+
   nav ul li {
     padding-right:3%;
   }
-  
+
   nav .menu-logo {
     width:100px;
   }
