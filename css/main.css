@@ -5,7 +5,7 @@ body {
   font-family: 'Nunito', Verdana, sans-serif;
   margin-left: 12%;
   margin-right: 12%;
-  background-color: #fef7ed;
+  background-color: #F0F0F0;
   color: #3f3f3f;
 }
 
@@ -455,7 +455,7 @@ p.price {
 }
 
 .cart-info h3 {
-  text-align: center;
+  text-align: left;
 }
 
 @media (max-width:900px) {
