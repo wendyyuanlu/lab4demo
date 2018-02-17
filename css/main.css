@@ -442,6 +442,16 @@ nav input[type="checkbox"]{
   text-align: center;
 }
 
+.banner-planners-promo.home {
+  height:300px;
+  margin-top:0;
+  margin-bottom:2.5em;
+}
+
+.banner-planners-promo.home p {
+  margin-bottom:-2em;
+}
+
 /* Styling for Categories */
 /*nth-child code from: https://css-tricks.com/how-nth-child-works/*/
 .button-image:nth-of-type(3n+3) {
