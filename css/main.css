@@ -27,14 +27,6 @@ section:last-child {
   margin-right: auto;
 
 }
-
-
-.banner {
-  max-width: 100%;
-  margin-bottom:1em;
-}
-
-
 /*
   INTERACTIVE ELEMENTS -------------------
 */
@@ -380,6 +372,74 @@ nav input[type="checkbox"]{
     min-width: calc((100% - 6em)/3);
     margin:0 1em;
   }
+}
+
+
+
+/*Styling for banner */
+.banner {
+  position: relative;
+  min-height:200px;
+  margin-bottom: 2em;
+}
+
+.banner-overlay {
+	background: rgba(101, 81, 110, 0.7);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right:0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.banner h1 {
+  color: #fff;
+}
+
+.banner-planners {
+  background: url("../img/PlannerBanner.jpg") center;
+  background-size: 1200px;
+}
+
+.banner-notebooks {
+  background: url("../img/NotebookBanner.jpg") center;
+  background-size: 1200px;
+}
+
+.banner-sheets {
+  background: url("../img/SpecialSheetBanner.jpg") center;
+  background-size: 1200px;
+}
+
+.banner-about {
+  background: url("../img/AboutUsBanner.jpg") center;
+  background-size: 1200px;
+}
+
+.banner-planners-promo {
+  background: url("../img/PlannerPromoBanner.jpg") center;
+  background-size: 1200px;
+  height:250px;
+  margin-top:-0.5em;
+}
+
+.banner-planners-promo .banner-overlay {
+  background: rgba(27, 27, 27, 0.5);
+}
+
+.banner-planners-promo p {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  margin: 0;
+  text-align: center;
 }
 
 /* Styling for Categories */
