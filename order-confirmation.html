@@ -17,6 +17,10 @@
 
     <nav>
       <div class="menu-browse">
+        <!--checkbox hack from: http://dabblet.com/gist/1506530-->
+        <input type="checkbox" id="menu-expand">
+        <label for="menu-expand"><img src="img/icon-menu.png" alt="Expand Menu"></label>
+
         <ul>
           <!--<li><a href="customize.html">Customize</a></li>-->
           <li><a href="planners.html">Planners</a></li>
@@ -38,60 +42,77 @@
 
 
     <section>
+
       <h1>Order Confirmation</h1>
-        <div class="order-confirm-container">
 
-          <div class="confirm-personal-info">
 
-            <div class="confirm-info" style="order: 1">
-              <h3>Shipping Information</h3>
-              <p>First Name Last Name</p>
-              <p>1234 Address</p>
-              <p>Postal Code, City</p>
-              <p>Country</p>
+      <div class="order-container">
 
-              <h3>Billing Information</h3>
-              <p>Same as Shipping</p>
+        <div class="order info-box">
+          <div class="info-box-container">
+            <div class="info-box-small">
+              <section>
+                <h3>Shipping Information</h3>
+                <p>First Name Last Name</p>
+                <p>1234 Address</p>
+                <p>Postal Code, City</p>
+                <p>Country</p>
+              </section>
 
+              <section>
+                <h3>Billing Information</h3>
+                <p>Same as Shipping</p>
+              </section>
             </div>
 
-            <div class="confirm-method" style="order: 2">
-
-              <h3>Payment Method</h3>
-              <p>Card Ending in 0000</p>
-
-              <h3>Shipping Method</h3>
-              <p>Regular: 5-7 Business Days</p>
+            <div class="info-box-small">
+              <section>
+                <h3>Payment Method</h3>
+                <p>Card Ending in 0000</p>
+              </section>
+              <section>
+                <h3>Shipping Method</h3>
+                <p>Regular: 5-7 Business Days</p>
+              </section>
             </div>
           </div>
-
-
-          <div class="confirm-order-info">
-            <h3>Order Number: 12345</h3>
-            <p>Subtotal: $24.00</p>
-            <p>Shipping & Handling: FREE</p>
-            <p>Tax: $5.03</p>
-            <h3>Order Total: $29.03</h3>
-          </div>
-
         </div>
 
-        <div class="confirm-order-item">
+        <div class="order price-box">
+          <h3>Order #: 12345</h3>
+          <p>Subtotal: <span>$24.00</span></p>
+          <p>Shipping: <span>FREE</span></p>
+          <p>Handling: <span>FREE</span></p>
+          <p>Tax: <span>$5.03</span></p>
+          <p class="price">Order Total: <span>$29.03</span></p>
+        </div>
 
-          <div class="confirm-order-img">
-            <figure>
+        <div class="order product-box">
+          <div class="product-order-container">
+            <div class="product-order-photo">
               <img src="img/MarblePlanner.jpg" alt="Marble Planner">
-            </figure>
-          </div>
+            </div>
 
-          <div class="confirm-order-text">
-              <h2>2018 12-Month Planner - Marble</h2>
-              <p> Quantity: 1</p>
-              <p class="price">$24.00</p>
+            <div class="product-order-name">
+              <h3>2018 12-Month Planner - Marble</h3>
+
+              <div class="product-order-detail large">
+                <hr>
+                <p>Quantity: <span>1</span></p>
+                <p class="price">Subtotal: <span>$24.00</span></p>
+              </div>
+            </div>
+
+            <div class="product-order-detail small">
+              <hr>
+              <p>Quantity: <span>1</span></p>
+              <p class="price">Subtotal: <span>$24.00</span></p>
+            </div>
           </div>
 
         </div>
-    </section>
+      </div>
 
+    </section>
   </body>
 </html>
