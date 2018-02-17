@@ -485,6 +485,7 @@ nav input[type="checkbox"]{
 	border: 1px solid #fff;
 	transition: all 0.5s ease;
 	border-radius: 3px;
+  margin-top:0px;
 }
 
 .button-image a {
