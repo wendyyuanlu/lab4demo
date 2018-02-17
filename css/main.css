@@ -476,25 +476,28 @@ p.price {
   }
 
   .product-detail-photo {
-    min-width: calc(50% - 1.5em);
+    width: calc(45% - 1.5em);
     background: #fff;
     margin-right: 1.5em;
-    padding: 2em;
     display: flex;
     align-items: center;
+    padding: 2em;
+    box-sizing: border-box;
   }
   
   .product-detail-photo img {
     max-width: 100%;
     text-align: center;
-    margin: 0%;
+    margin: 0;
   }
 
-  
-  .product-detail-detail {
-    min-width: calc(50% - 1.5em);
+  .product-detail-detail-container {
+    width: calc(55% - 1.5em);
     margin-left: 1.5em;
+    display: flex;
+    align-items: center;
   }
+ 
   
   .product-detail-detail h2 {
     margin-top: 0;
