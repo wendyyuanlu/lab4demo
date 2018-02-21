@@ -610,7 +610,7 @@ p.price {
     padding: 2em;
     box-sizing: border-box;
   }
-  
+
   .product-detail-photo img {
     max-width: 100%;
     text-align: center;
@@ -623,8 +623,8 @@ p.price {
     display: flex;
     align-items: center;
   }
- 
-  
+
+
   .product-detail-detail h2 {
     margin-top: 0;
   }
