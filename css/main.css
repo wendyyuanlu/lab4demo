@@ -403,27 +403,27 @@ nav input[type="checkbox"]{
 
 .banner-planners {
   background: url("../img/PlannerBanner.jpg") center;
-  background-size: 1200px;
+  background-size: cover;
 }
 
 .banner-notebooks {
   background: url("../img/NotebookBanner.jpg") center;
-  background-size: 1200px;
+  background-size: cover;
 }
 
 .banner-sheets {
   background: url("../img/SpecialSheetBanner.jpg") center;
-  background-size: 1200px;
+  background-size: cover;
 }
 
 .banner-about {
   background: url("../img/AboutUsBanner.jpg") center;
-  background-size: 1200px;
+  background-size: cover;
 }
 
 .banner-planners-promo {
   background: url("../img/PlannerPromoBanner.jpg") center;
-  background-size: 1200px;
+  background-size: cover;
   height:250px;
   margin-top:-0.5em;
 }
