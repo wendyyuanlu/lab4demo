@@ -7,9 +7,6 @@ body {
   margin-right: 12%;
   background-color: #F0F0F0;
   color: #3f3f3f;
-  display: flex;
-  flex-direction: column;
-  min-height: calc(100vh - 20px);
 }
 
 section:not([id]) {
@@ -248,13 +245,6 @@ a:hover, a:focus {
 
 /* Styling for the Main Navigation */
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top:20px;
-}
-
 nav ul {
   display: inline;
   list-style-type: none;
@@ -331,12 +321,7 @@ nav input[type="checkbox"]{
 /*Styling for footer*/
 
 #footer {
-  margin-top: auto;
-  padding: 1em 0;
   font-size: 0.85em;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
   border-top: 1px solid #7B7B7B;
 }
 
@@ -385,16 +370,6 @@ nav input[type="checkbox"]{
 
 .banner-overlay {
 	background: rgba(101, 81, 110, 0.7);
-  position: absolute;
-  left: 0;
-  top: 0;
-  right:0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  padding: 2em;
 }
 
 .banner h1 {
@@ -560,11 +535,6 @@ p.price {
   text-decoration: underline;
 }
 
-.product-detail-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .product-detail-photo {
   background: #fff;
   padding: 2em;
@@ -594,61 +564,8 @@ p.price {
   display: none;
 }
 
-@media (min-width:900px) {
-
-  /* Styling for Product Detailed View */
-  .product-detail-container {
-    flex-wrap: nowrap;
-  }
-
-  .product-detail-photo {
-    width: calc(45% - 1.5em);
-    background: #fff;
-    margin-right: 1.5em;
-    display: flex;
-    align-items: center;
-    padding: 2em;
-    box-sizing: border-box;
-  }
-
-  .product-detail-photo img {
-    max-width: 100%;
-    text-align: center;
-    margin: 0;
-  }
-
-  .product-detail-detail-container {
-    width: calc(55% - 1.5em);
-    margin-left: 1.5em;
-    display: flex;
-    align-items: center;
-  }
-
-
-  .product-detail-detail h2 {
-    margin-top: 0;
-  }
-
-  .product-detail-name.small {
-    display: none;
-  }
-
-  .product-detail-name.large {
-    display: block;
-  }
-
-  .product-detail-detail {
-    width: 100%;
-  }
-
-}
-
 
 /* Styling for Order */
-.order-container {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .order {
   background: #fff;
@@ -683,25 +600,6 @@ p.price {
   float: right;
 }
 
-.order .product-order-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.product-order-photo {
-  width: calc(30% - 1em);
-  margin-right: 1em;
-}
-.product-order-name {
-  width: calc(70% - 1em);
-  margin-left: 1em;
-}
-
-.product-order-detail {
-  width: 100%;
-}
-
 hr {
   margin: 1em 0;
   border: 0;
@@ -718,21 +616,6 @@ hr {
 }
 
 @media (min-width:900px) {
-
-  .order-container {
-		flex-wrap:row wrap;
-    align-items: flex-start;
-  }
-
-  .order.info-box, .order.product-box {
-    width: calc(70% - 1em);
-    margin: 0 1em 1em 0;
-  }
-
-  .info-box-container {
-    display: flex;
-  }
-
   .info-box-small {
     width: 50%;
   }
@@ -749,22 +632,6 @@ hr {
     display: block;
   }
 
-  .about-container {
-    display: flex;
-  }
-
-  section .about {
-    width: 50%;
-  }
-
-  section .about:nth-of-type(odd) {
-    margin: 0 2em 0 0;
-  }
-
-  section .about:nth-of-type(even) {
-    margin: 0 0 0 2em;
-  }
-
 }
 
 
@@ -777,23 +644,6 @@ hr {
   .menu-user span {
     display: none;
   }
-
-  nav .menu-browse ul{
-		display: none;
-		justify-content: center;
-		list-style-type: none;
-		flex-wrap: wrap;
-		flex-direction:  column;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1000;
-    transition: all 0.5s ease;
-	}
 
   nav .menu-browse ul li {
     text-align: center;
@@ -836,29 +686,8 @@ hr {
   }
 }
 
-@media (min-width: 500px) {
+
+/*@media (min-width: 500px) {
   margin-right: 15%;
   margin-left: 15%;
-}
-
-@media (max-width: 600px) {
-
-  nav .menu-browse, nav .menu-user {
-    width: calc(50% - 50px);
-  }
-
-  nav ul li {
-    padding-right:3%;
-  }
-
-  nav .menu-logo {
-    width:100px;
-  }
-    .main-nav li{
-        padding-bottom: 1rem;
-    }
-
-    .column {
-        width: 100%;
-    }
-}
+}*/
