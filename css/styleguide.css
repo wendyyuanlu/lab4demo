@@ -1,3 +1,7 @@
+.full-width {
+  max-width: 100%;
+}
+
 section.styleguide {
   border-top: 1px solid #333;
 }
