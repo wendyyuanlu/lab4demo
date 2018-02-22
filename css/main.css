@@ -377,17 +377,17 @@ nav input[type="checkbox"]{
 }
 
 .banner-planners {
-  background: url("../img/PlannerBanner.jpg") center;
+  background: url("../img/PlannerBanner1.jpg") center;
   background-size: cover;
 }
 
 .banner-notebooks {
-  background: url("../img/NotebookBanner.jpg") center;
+  background: url("../img/HomepageThumbnailNotebook.jpg") center;
   background-size: cover;
 }
 
 .banner-sheets {
-  background: url("../img/SpecialSheetBanner.jpg") center;
+  background: url("../img/ThumbnailSheets.jpg") center;
   background-size: cover;
 }
 
