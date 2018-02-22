@@ -134,7 +134,7 @@ button.button-secondary:hover, button.button-secondary:focus {
 form {
 }
 
-input[type=text], select, textarea, option {
+input, select, textarea, option {
   font-family: 'Nunito', Verdana, sans-serif;
   font-size: 1em;
   line-height: 2em;
@@ -149,26 +149,19 @@ input[type=text], select, textarea, option {
   margin-bottom: 1em;
 }
 
+input[type="checkbox"]{
+		width: auto;
+}
+
 select {
   height: 34px;
 }
-
-
 
 label {
   display: block;
 }
 
-input[type=quantity] {
-  font-size: 1em;
-  line-height: 2em;
-  padding:0px 12px;
-  margin: 0;
-  border: 1px solid #6c82a4;
-  border-radius: 3px;
-  box-sizing: border-box;
-  color: #1B1B1B;
-  resize: vertical;
+.quantity {
   width: 4em;
 }
 
