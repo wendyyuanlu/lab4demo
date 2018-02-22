@@ -427,6 +427,18 @@ nav input[type="checkbox"]{
   margin-bottom:-2em;
 }
 
+.banner .button-link {
+	background: #fff;
+  border: 1px solid #fff;
+  color: #6c82a4;
+}
+
+.banner .button-link:hover, .banner .button-link:focus {
+  background: none;
+	color: #fff;
+  border: 1px solid #fff;
+}
+
 /* Styling for Categories */
 /*nth-child code from: https://css-tricks.com/how-nth-child-works/*/
 .button-image:nth-of-type(3n+3) {
