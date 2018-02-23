@@ -15,56 +15,72 @@
 
   <body>
 
-    <nav>
-      <div class="menu-browse">
-        <!--checkbox hack from: http://dabblet.com/gist/1506530-->
-        <input type="checkbox" id="menu-expand">
-        <label for="menu-expand"><img src="img/icon-menu.png" alt="Expand Menu"></label>
+    <div class="container">
 
-        <ul>
-          <!--<li><a href="customize.html">Customize</a></li>-->
-          <li><a href="planners.html">Planners</a></li>
-          <li><a href="notebooks.html">Notebooks</a></li>
-          <li><a href="sheets.html">Sheets</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </div>
-      <div class="menu-logo">
-        <a href="index.html"><img src="img/PlanMeLogo.png" alt="PlanMe Logo" class="logo"></a>
-      </div>
+      <nav>
+        <div class="menu-browse">
+          <!--checkbox hack from: http://dabblet.com/gist/1506530-->
+          <input type="checkbox" id="menu-expand">
+          <label for="menu-expand"><img src="img/icon-menu.png" alt="Expand Menu"></label>
 
-      <div class="menu-user">
-        <ul>
-          <li><a href="account.html"><img src="img/icon-account-x3.png" alt="My Account"><span>My Account</span></a></li>
-          <li><a href="cart.html"><img src="img/icon-cart-x3.png" alt="Shopping Cart"><span>Shopping Cart</span></a></li>
-        </ul>
-      </div>
-    </nav>
+          <ul>
+            <!--<li><a href="customize.html">Customize</a></li>-->
+            <li><a href="planners.html">Planners</a></li>
+            <li><a href="notebooks.html">Notebooks</a></li>
+            <li><a href="sheets.html">Sheets</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="menu-logo">
+          <a href="index.html"><img src="img/PlanMeLogo.png" alt="PlanMe Logo" class="logo"></a>
+        </div>
 
-
-    <section>
-
-      <h1>Shopping Cart</h1>
+        <div class="menu-user">
+          <ul>
+            <li><a href="account.html"><img src="img/icon-account-x3.png" alt="My Account"><span>My Account</span></a></li>
+            <li><a href="cart.html"><img src="img/icon-cart-x3.png" alt="Shopping Cart"><span>Shopping Cart</span></a></li>
+          </ul>
+        </div>
+      </nav>
 
 
-      <div class="order-container">
+      <section>
+
+        <h1>Shopping Cart</h1>
 
 
-        <div class="order product-box">
-          <div class="product-order-container">
-            <div class="product-order-photo">
-              <img src="img/MarblePlanner.jpg" alt="Marble Planner">
-            </div>
+        <div class="order-container">
 
-            <div class="product-order-name">
-              <h3>2018 12-Month Planner - Marble</h3>
-              <p>Unit Price: $24.00</p>
 
-              <div class="product-order-detail large">
+          <div class="order product-box">
+            <div class="product-order-container">
+              <div class="product-order-photo">
+                <img src="img/MarblePlanner.jpg" alt="Marble Planner">
+              </div>
+
+              <div class="product-order-name">
+                <h3>2018 12-Month Planner - Marble</h3>
+                <p>Unit Price: $24.00</p>
+
+                <div class="product-order-detail large">
+                  <hr>
+                  <form class="quantity">
+                    <label>Quantity:</label>
+                    <input name="text-input" value="2">
+                  </form>
+
+                  <p class="price">Subtotal: $48.00</p>
+
+                  <br>
+                  <p><button type="button" class="button-secondary">Remove item</button></p>
+                </div>
+              </div>
+
+              <div class="product-order-detail small">
                 <hr>
                 <form class="quantity">
                   <label>Quantity:</label>
-                  <input name="text-input" value="2">
+                  <input name="text-input" value="1">
                 </form>
 
                 <p class="price">Subtotal: $48.00</p>
@@ -74,70 +90,59 @@
               </div>
             </div>
 
-            <div class="product-order-detail small">
-              <hr>
-              <form class="quantity">
-                <label>Quantity:</label>
-                <input name="text-input" value="1">
-              </form>
 
-              <p class="price">Subtotal: $48.00</p>
-
-              <br>
-              <p><button type="button" class="button-secondary">Remove item</button></p>
-            </div>
           </div>
 
+            <div class="order price-box">
+              <label class="promo-code">Promotion Code:</label>
+              <input name="name" type="text">
 
+              <p>Subtotal: <span>$48.00</span></p>
+              <p>Shipping: <span>FREE</span></p>
+              <p>Handling: <span>FREE</span></p>
+              <p>Tax: <span>$5.03</span></p>
+              <p class="price">Order Total: <span>$53.03</span></p>
+
+              <p><a href="check-out.html" class="button-link full">Checkout</a></p>
+
+          </div>
         </div>
 
-          <div class="order price-box">
-            <label class="promo-code">Promotion Code:</label>
-            <input name="name" type="text">
+      </section>
 
-            <p>Subtotal: <span>$48.00</span></p>
-            <p>Shipping: <span>FREE</span></p>
-            <p>Handling: <span>FREE</span></p>
-            <p>Tax: <span>$5.03</span></p>
-            <p class="price">Order Total: <span>$53.03</span></p>
 
-            <p><a href="check-out.html" class="button-link full">Checkout</a></p>
-
+      <section id="footer">
+        <div class="footer-item">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="planners.html">Planners</a></li>
+            <li><a href="notebooks.html">Notebooks</a></li>
+            <li><a href="sheets.html">Special Sheets</a></li>
+          </ul>
         </div>
-      </div>
 
-    </section>
+        <div class="footer-item">
+          <h4>Account</h4>
+          <ul>
+            <li><a href="account.html">My Account</a></li>
+            <li><a href="cart.html">Shopping Cart</a></li>
+          </ul>
+        </div>
 
+        <div class="footer-item">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html#contact">Contact</a></li>
+          </ul>
+        </div>
 
-    <section id="footer">
-      <div class="footer-item">
-        <h4>Shop</h4>
-        <ul>
-          <li><a href="planners.html">Planners</a></li>
-          <li><a href="notebooks.html">Notebooks</a></li>
-          <li><a href="sheets.html">Special Sheets</a></li>
-        </ul>
-      </div>
+        <div class="footer-item">
+        &copy; 2018 Plan Me. All Rights Reserved
+        </div>
+      </section>
 
-      <div class="footer-item">
-        <h4>Account</h4>
-        <ul>
-          <li><a href="account.html">My Account</a></li>
-          <li><a href="cart.html">Shopping Cart</a></li>
-        </ul>
-      </div>
+    </div>
 
-      <div class="footer-item">
-        <h4>Company</h4>
-        <ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="about.html#contact">Contact</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-item">
-      &copy; 2018 Plan Me. All Rights Reserved
-      </div>
-    </section>
   </body>
 </html>
