@@ -1,8 +1,8 @@
-/*Using flexbox for footer: https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/*/
-body {
+.container {
   display: flex;
   flex-direction: column;
   min-height: calc(100vh - 20px);
+  /* min-height: 100vh; */
 }
 
 /* Anchors at Top */
