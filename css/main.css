@@ -318,12 +318,12 @@ nav input[type="checkbox"]{
 
 /*Styling for footer*/
 
-#footer {
+.footer {
   font-size: 0.85em;
   border-top: 1px solid #7B7B7B;
 }
 
-#footer a, #footer a:visited {
+.footer a, .footer a:visited {
   font-size: 1em;
   text-decoration: none;
 }
@@ -347,7 +347,7 @@ nav input[type="checkbox"]{
 }
 
 @media (min-width:500px) {
-  #footer {
+  .footer {
     justify-content: space-between;
   }
 
