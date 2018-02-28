@@ -17,7 +17,7 @@
     <div class="container">
 
       <nav>
-        <div class="menu-browse">
+        <div class="menu-browse" role="navigation" aria-label="main navigation">
           <!--checkbox hack from: http://dabblet.com/gist/1506530-->
           <input type="checkbox" id="menu-expand">
           <label for="menu-expand"><img src="img/icon-menu.png" alt="Expand Menu"></label>
@@ -30,11 +30,11 @@
             <li><a href="about.html">About</a></li>
           </ul>
         </div>
-        <div class="menu-logo">
+        <div class="menu-logo" role="banner">
           <a href="index.html"><img src="img/PlanMeLogo.png" alt="PlanMe Logo" class="logo"></a>
         </div>
 
-        <div class="menu-user">
+        <div class="menu-user" role="navigation" aria-label="user navigation">
           <ul>
             <li><a href="account.html"><img src="img/icon-account-x3.png" alt="My Account"><span>My Account</span></a></li>
             <li><a href="cart.html"><img src="img/icon-cart-x3.png" alt="Shopping Cart"><span>Shopping Cart</span></a></li>
@@ -60,19 +60,21 @@
 
             <section class="about" id="contact">
               <h2>Contact Us</h2>
-              <form>
-                <label>Name:</label>
-                <input name="name" type="text">
+              <div role="form">
+                <form>
+                  <label>Name:</label>
+                  <input name="name" type="text">
 
-                <label>E-mail:</label>
-                <input name="email" type="text">
+                  <label>E-mail:</label>
+                  <input name="email" type="text">
 
-                <label>Message:</label>
-                <textarea name="text-input"></textarea>
+                  <label>Message:</label>
+                  <textarea name="text-input"></textarea>
 
-                <button type="button" class="button-primary" onclick="location.href='recieved.html'">Send</button> &nbsp;&nbsp;
-                <button type="button" class="button-secondary">Reset</button>
-              </form>
+                  <button type="button" class="button-primary" onclick="location.href='recieved.html'">Send</button> &nbsp;&nbsp;
+                  <button type="button" class="button-secondary">Reset</button>
+                </form>
+              </div>
             </section>
           </div>
 
@@ -114,7 +116,7 @@
             </ul>
           </div>
 
-          <div class="footer-item">
+          <div class="footer-item" role="contentInfo">
           &copy; 2018 Plan Me. All Rights Reserved
           </div>
         </footer>
