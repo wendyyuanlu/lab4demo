@@ -11,7 +11,7 @@ section h3 {
 }
 
 section code {
-  background-color: #EEE;
+  background-color: #fff;
   padding: 0.5em 0.75em;
   white-space: pre-line;
 }
@@ -27,6 +27,14 @@ code {
 
 section p {
   margin-top: 0;
+}
+
+.product-detail-container p {
+  margin-top: 16px;
+}
+
+.product-detail-detail-container hr {
+  width: 100%;
 }
 
 /* Styling for the Grid Structure */
@@ -130,4 +138,21 @@ section p {
 
 .full-width {
 	max-width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.column {
+  flex-basis: 100%;
+}
+
+@media (min-width:500px) {
+  .column {
+    flex-basis: 32%;
+    margin-right: 1%;
+  }
 }
