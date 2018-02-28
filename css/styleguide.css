@@ -108,6 +108,11 @@ section p {
   border: 1px solid #3f3f3f;
 }
 
+.grey {
+  background: #F0F0F0;
+  color: black;
+}
+
 .blue {
   background: #6c82a4;
   color: white;
@@ -118,7 +123,7 @@ section p {
   color: white;
 }
 
-.grey {
+.dark-grey {
   background: #3f3f3f;
   color: white;
 }
