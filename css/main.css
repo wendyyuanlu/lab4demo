@@ -214,18 +214,7 @@ ol {
 	text-indent: 6px;
 }
 
-/* Citation: Three Column Layout (W3Schools) */
-.column {
-  float: left;
-  position: relative;
-  width: 30%
-}
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /*Styling for links */
 a, a:visited {
@@ -344,17 +333,6 @@ footer a, footer a:visited {
   min-width: 100%;
   margin-top:2em;
   margin-bottom: 0;
-}
-
-@media (min-width:500px) {
-  footer {
-    justify-content: space-between;
-  }
-
-  .footer-item {
-    min-width: calc((100% - 6em)/3);
-    margin:0 1em;
-  }
 }
 
 
@@ -625,6 +603,19 @@ hr {
   display: none;
 }
 
+@media (min-width:500px) {
+  footer {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:650px) {
+  .footer-item {
+    min-width: calc((100% - 8em)/4);
+    margin:0 1em;
+  }
+}
+
 @media (min-width:900px) {
   .info-box-small {
     width: 50%;
@@ -641,6 +632,7 @@ hr {
   .product-order-detail.large {
     display: block;
   }
+
 
 }
 
