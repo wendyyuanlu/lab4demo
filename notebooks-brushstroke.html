@@ -16,7 +16,7 @@
   <body>
     <div class="container">
       <nav>
-        <div class="menu-browse" role="navigation" aria-label="main navigation">
+        <div class="menu-browse">
           <!--checkbox hack from: http://dabblet.com/gist/1506530-->
           <input type="checkbox" id="menu-expand">
           <label for="menu-expand"><img src="img/icon-menu.png" alt="Expand Menu"></label>
@@ -33,7 +33,7 @@
           <a href="index.html"><img src="img/PlanMeLogo.png" alt="PlanMe Logo" class="logo"></a>
         </div>
 
-        <div class="menu-user" role="navigation" aria-label="user navigation">
+        <div class="menu-user">
           <ul>
             <li><a href="account.html"><img src="img/icon-account-x3.png" alt="My Account"><span>My Account</span></a></li>
             <li><a href="cart.html"><img src="img/icon-cart-x3.png" alt="Shopping Cart"><span>Shopping Cart</span></a></li>
@@ -42,106 +42,107 @@
       </nav>
 
 
-      <section>
+      <main>
+        <section>
+          <div class="product-detail-container">
+            <div class="product-detail-name small">
+              <h2>Ruled Notebook - Brushstroke</h2>
+              <p class="price">$9.00</p>
+            </div>
 
-        <div class="product-detail-container">
-          <div class="product-detail-name small">
-            <h2>Ruled Notebook - Brushstroke</h2>
-            <p class="price">$9.00</p>
-          </div>
+            <div class="product-detail-photo">
+              <img src="img/BrushstrokeNotebook.jpg" alt="Brushstroke Notebook">
+            </div>
 
-          <div class="product-detail-photo">
-            <img src="img/BrushstrokeNotebook.jpg" alt="Brushstroke Notebook">
-          </div>
+            <div class="product-detail-detail-container">
+              <div class="product-detail-detail">
 
-          <div class="product-detail-detail-container">
-            <div class="product-detail-detail">
+                <div class="product-detail-name large">
+                  <h2>Ruled Notebook - Brushstroke</h2>
+                  <p class="price">$9.00</p>
+                </div>
 
-              <div class="product-detail-name large">
-                <h2>Ruled Notebook - Brushstroke</h2>
-                <p class="price">$9.00</p>
+                <h3>Details:</h3>
+                <p>Jot down quick notes on the go with this compact Spiral Notebook.</p>
+                <ul>
+                    <li>Three divided sections for organization</li>
+                    <li>Spiral bound, lay-flat design</li>
+                    <li>Smooth lined pages</li>
+                    <li>192 pages</li>
+                    <li>8" x 6"</li>
+                </ul>
+                <hr>
+                <form class="quantity">
+                  <label>Quantity:</label>
+                  <input name="text-input" value="2">
+                </form>
+
+                <br>
+                <a href="cart.html" class="button-link">Add to cart</a>
               </div>
-
-              <h3>Details:</h3>
-              <p>Jot down quick notes on the go with this compact Spiral Notebook.</p>
-              <ul>
-                  <li>Three divided sections for organization</li>
-                  <li>Spiral bound, lay-flat design</li>
-                  <li>Smooth lined pages</li>
-                  <li>192 pages</li>
-                  <li>8" x 6"</li>
-              </ul>
-              <hr>
-              <form class="quantity">
-                <label>Quantity:</label>
-                <input name="text-input" value="2">
-              </form>
-
-              <br>
-              <a href="cart.html" class="button-link">Add to cart</a>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section>
-        <h2>Reviews</h2>
+        <section>
+          <h2>Reviews</h2>
 
-          <form>
-            <label>Leave a Review</label>
-            <textarea name="textarea" style="height:150px;"></textarea>
-          </form>
+            <form>
+              <label>Leave a Review</label>
+              <textarea name="textarea" style="height:150px;"></textarea>
+            </form>
 
-          <button type="button" class="button-secondary" >Submit Review</button>
+            <button type="button" class="button-secondary" >Submit Review</button>
 
-      </section>
+        </section>
 
-      <section>
-        <h2>More Like This</h2>
+        <section>
+          <h2>More Like This</h2>
 
-        <div class="product-listings-container">
-          <div class="product-item">
-            <a href="notebooks-geode.html">
-              <figure>
-                <img src="img/GeodeNotebook.jpg" alt="Ruled Notebook - Teal Geode" style="max-width:100%">
-                <p>Ruled Notebook - Teal Geode</p>
-                <p>$14.00</p>
-              </figure>
-            </a>
+          <div class="product-listings-container">
+            <div class="product-item">
+              <a href="notebooks-geode.html">
+                <figure>
+                  <img src="img/GeodeNotebook.jpg" alt="Ruled Notebook - Teal Geode" style="max-width:100%">
+                  <p>Ruled Notebook - Teal Geode</p>
+                  <p>$14.00</p>
+                </figure>
+              </a>
+            </div>
+
+            <div class="product-item">
+              <a href="notebooks-geode.html">
+                <figure>
+                  <img src="img/PainterNotebook.jpg" alt="Ruled Notebook - Paint" style="max-width:100%">
+                  <p>Ruled Notebook - Paint</p>
+                  <p>$9.00</p>
+                </figure>
+              </a>
+            </div>
+
+            <div class="product-item">
+              <a href="notebooks-geode.html">
+                <figure>
+                  <img src="img/TreeNotebook.jpg" alt="Ruled Notebook - Tree" style="max-width:100%">
+                  <p>Ruled Notebook - Tree</p>
+                  <p>$9.00</p>
+                </figure>
+              </a>
+            </div>
+
+            <div class="product-item">
+              <a href="notebooks-geode.html">
+                <figure>
+                  <img src="img/StripeNotebook.jpg" alt="Ruled Notebook - Stripes" style="max-width:100%">
+                  <p>Ruled Notebook - Stripes</p>
+                  <p>$9.00</p>
+                </figure>
+              </a>
+            </div>
+
           </div>
-
-          <div class="product-item">
-            <a href="notebooks-geode.html">
-              <figure>
-                <img src="img/PainterNotebook.jpg" alt="Ruled Notebook - Paint" style="max-width:100%">
-                <p>Ruled Notebook - Paint</p>
-                <p>$9.00</p>
-              </figure>
-            </a>
-          </div>
-
-          <div class="product-item">
-            <a href="notebooks-geode.html">
-              <figure>
-                <img src="img/TreeNotebook.jpg" alt="Ruled Notebook - Tree" style="max-width:100%">
-                <p>Ruled Notebook - Tree</p>
-                <p>$9.00</p>
-              </figure>
-            </a>
-          </div>
-
-          <div class="product-item">
-            <a href="notebooks-geode.html">
-              <figure>
-                <img src="img/StripeNotebook.jpg" alt="Ruled Notebook - Stripes" style="max-width:100%">
-                <p>Ruled Notebook - Stripes</p>
-                <p>$9.00</p>
-              </figure>
-            </a>
-          </div>
-
-        </div>
-      </section>
+        </section>
+      </main>
 
 
       <footer>
@@ -180,7 +181,7 @@
         </div>
 
         <div class="footer-item" role="contentinfo">
-        &copy; 2018 Plan Me. All Rights Reserved
+          &copy; 2018 Plan Me. All Rights Reserved.
         </div>
       </footer>
 

@@ -17,13 +17,12 @@
     <div class="container">
 
       <nav>
-        <div class="menu-browse" role="navigation" aria-label="main navigation">
+        <div class="menu-browse">
           <!--checkbox hack from: http://dabblet.com/gist/1506530-->
           <input type="checkbox" id="menu-expand">
           <label for="menu-expand"><img src="img/icon-menu.png" alt="Expand Menu"></label>
 
           <ul>
-            <!--<li><a href="customize.html">Customize</a></li>-->
             <li><a href="planners.html">Planners</a></li>
             <li><a href="notebooks.html">Notebooks</a></li>
             <li><a href="sheets.html">Sheets</a></li>
@@ -34,7 +33,7 @@
           <a href="index.html"><img src="img/PlanMeLogo.png" alt="PlanMe Logo" class="logo"></a>
         </div>
 
-        <div class="menu-user" role="navigation" aria-label="user navigation">
+        <div class="menu-user">
           <ul>
             <li><a href="account.html"><img src="img/icon-account-x3.png" alt="My Account"><span>My Account</span></a></li>
             <li><a href="cart.html"><img src="img/icon-cart-x3.png" alt="Shopping Cart"><span>Shopping Cart</span></a></li>
@@ -43,42 +42,43 @@
       </nav>
 
 
+      <main>
         <section>
-          <div class="banner banner-about">
-            <div class="banner-overlay">
-              <h1>About Us</h1>
-            </div>
-          </div>
-
-          <div class="about-container" role="main">
-            <section class="about">
-              <h2>Our Mission</h2>
-              <p>Sometimes a student’s schedule gets a bit too hectic and hard to keep track of. PlanMe offers the ability to create your own custom planners based on your individual needs. Finding the perfect planner can be tough; one that has a cover that suits your style, layout that fits with your scheduling needs, and special sheets that you actually need. PlanMe lets you customize all of those to suit your personal preferences, so you can really use your planner to the fullest.</p>
-
-              <p>We want to help you organize effectively and with style. The process of customizing your own planner has never been easier with our website, and in just a few steps your dream planner will be sent off to print and in your hands as soon as possible!</p>
-            </section>
-
-            <section class="about" id="contact">
-              <h2>Contact Us</h2>
-              <div role="form">
-                <form>
-                  <label>Name:</label>
-                  <input name="name" type="text">
-
-                  <label>E-mail:</label>
-                  <input name="email" type="text">
-
-                  <label>Message:</label>
-                  <textarea name="text-input"></textarea>
-
-                  <button type="button" class="button-primary" onclick="location.href='recieved.html'">Send</button> &nbsp;&nbsp;
-                  <button type="button" class="button-secondary">Reset</button>
-                </form>
+            <div class="banner banner-about">
+              <div class="banner-overlay">
+                <h1>About Us</h1>
               </div>
-            </section>
-          </div>
+            </div>
 
-        </section>
+            <div class="about-container" role="main">
+              <section class="about">
+                <h2>Our Mission</h2>
+                <p>Sometimes a student’s schedule gets a bit too hectic and hard to keep track of. PlanMe offers the ability to create your own custom planners based on your individual needs. Finding the perfect planner can be tough; one that has a cover that suits your style, layout that fits with your scheduling needs, and special sheets that you actually need. PlanMe lets you customize all of those to suit your personal preferences, so you can really use your planner to the fullest.</p>
+
+                <p>We want to help you organize effectively and with style. The process of customizing your own planner has never been easier with our website, and in just a few steps your dream planner will be sent off to print and in your hands as soon as possible!</p>
+              </section>
+
+              <section class="about" id="contact">
+                <h2>Contact Us</h2>
+                <div role="form">
+                  <form>
+                    <label>Name:</label>
+                    <input name="name" type="text">
+
+                    <label>E-mail:</label>
+                    <input name="email" type="text">
+
+                    <label>Message:</label>
+                    <textarea name="text-input"></textarea>
+
+                    <button type="button" class="button-primary" onclick="location.href='recieved.html'">Send</button> &nbsp;&nbsp;
+                    <button type="button" class="button-secondary">Reset</button>
+                  </form>
+                </div>
+              </section>
+            </div>
+          </section>
+        </main>
 
 
         <footer>
@@ -117,7 +117,7 @@
           </div>
 
           <div class="footer-item" role="contentinfo">
-          &copy; 2018 Plan Me. All Rights Reserved
+            &copy; 2018 Plan Me. All Rights Reserved.
           </div>
         </footer>
 

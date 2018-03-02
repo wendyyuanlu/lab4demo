@@ -17,13 +17,12 @@
     <div class="container">
 
       <nav>
-        <div class="menu-browse" role="navigation" aria-label="main navigation">
+        <div class="menu-browse">
           <!--checkbox hack from: http://dabblet.com/gist/1506530-->
           <input type="checkbox" id="menu-expand">
           <label for="menu-expand"><img src="img/icon-menu.png" alt="Expand Menu"></label>
 
           <ul>
-            <!--<li><a href="customize.html">Customize</a></li>-->
             <li><a href="planners.html">Planners</a></li>
             <li><a href="notebooks.html">Notebooks</a></li>
             <li><a href="sheets.html">Sheets</a></li>
@@ -34,7 +33,7 @@
           <a href="index.html"><img src="img/PlanMeLogo.png" alt="PlanMe Logo" class="logo"></a>
         </div>
 
-        <div class="menu-user" role="navigation" aria-label="user navigation">
+        <div class="menu-user">
           <ul>
             <li><a href="account.html"><img src="img/icon-account-x3.png" alt="My Account"><span>My Account</span></a></li>
             <li><a href="cart.html"><img src="img/icon-cart-x3.png" alt="Shopping Cart"><span>Shopping Cart</span></a></li>
@@ -43,127 +42,129 @@
       </nav>
 
 
-      <section>
-        <h1>My Account</h1>
-
+      <main>
         <section>
-          <div role="form">
-            <h2>My Information</h2>
-            <div class="form-about-container">
-              <div class="form-about">
-                <label>First Name:</label>
-                <input name="name" value="Josephine" type="text">
+          <h1>My Account</h1>
+
+          <section>
+            <div role="form">
+              <h2>My Information</h2>
+              <div class="form-about-container">
+                <div class="form-about">
+                  <label>First Name:</label>
+                  <input name="name" value="Josephine" type="text">
+                </div>
+
+                <div class="form-about">
+                  <label>Last Name:</label>
+                  <input name="name" value="Brown" type="text">
+                </div>
+
+                <div class="form-about">
+                  <label>Email Address:</label>
+                  <input name="name" value="josephinebrown@gmail.com" type="text">
+                </div>
+
+                <div class="form-about">
+                  <label>Phone Number:</label>
+                  <input name="name" value="604-123-4567" type="text">
+                </div>
               </div>
 
-              <div class="form-about">
-                <label>Last Name:</label>
-                <input name="name" value="Brown" type="text">
-              </div>
+              <label>Address:</label>
+              <input name="name" value="123456 Chestnut Road" type="text">
 
-              <div class="form-about">
-                <label>Email Address:</label>
-                <input name="name" value="josephinebrown@gmail.com" type="text">
-              </div>
+              <div class="form-about-container">
+                <div class="form-about">
+                  <label>City:</label>
+                  <input name="name" value="Vancouver" type="text">
+                </div>
 
-              <div class="form-about">
-                <label>Phone Number:</label>
-                <input name="name" value="604-123-4567" type="text">
+                <div class="form-about">
+                  <label>Province:</label>
+                  <select>
+                    <option value="Alberta">Alberta</option>
+                    <option value="British Columbia">British Columbia</option>
+                    <option value="Manitoba">Manitoba</option>
+                    <option value="New Brunswick">New Brunswick</option>
+                    <option value="Newfoundland">Newfoundland</option>
+                    <option value="Northwest Territories">Northwest Territories</option>
+                    <option value="Nova Scotia">Nova Scotia</option>
+                    <option value="Nunavet">Nunavet</option>
+                    <option value="Ontario">Ontario</option>
+                    <option value="Prince Edward Island">Prince Edward Island</option>
+                    <option value="Quebec">Quebec</option>
+                    <option value="Saskatchewan">Saskatchewan</option>
+                    <option value="Yukon">Yukon</option>
+                  </select>
+                </div>
+
+                <div class="form-about">
+                  <label>Postal Code:</label>
+                  <input name="name" value="S3S 3S3" type="text">
+                </div>
+
+                <div class="form-about">
+                  <label>Country:</label>
+                  <select>
+                    <option value="Canada">Canada</option>
+                    <option value="United States of America">United States of America</option>
+                  </select>
+                </div>
               </div>
             </div>
 
-            <label>Address:</label>
-            <input name="name" value="123456 Chestnut Road" type="text">
+            <div class="center"><a href="#" class="button-link secondary">Save changes</a></div>
 
-            <div class="form-about-container">
-              <div class="form-about">
-                <label>City:</label>
-                <input name="name" value="Vancouver" type="text">
+          </section>
+
+          <section>
+            <h2>My Past Orders</h2>
+            <div class="product-listings-container">
+              <div class="product-item">
+                <a href="planners-marble.html">
+                  <figure>
+                    <img src="img/MarblePlanner.jpg" alt="2018 12-Month Planner-Marble" style="max-width:100%">
+                    <p>2018 12-Month Planner - Marble</p>
+                    <p>$24.00</p>
+                  </figure>
+                </a>
               </div>
 
-              <div class="form-about">
-                <label>Province:</label>
-                <select>
-                  <option value="Alberta">Alberta</option>
-                  <option value="British Columbia">British Columbia</option>
-                  <option value="Manitoba">Manitoba</option>
-                  <option value="New Brunswick">New Brunswick</option>
-                  <option value="Newfoundland">Newfoundland</option>
-                  <option value="Northwest Territories">Northwest Territories</option>
-                  <option value="Nova Scotia">Nova Scotia</option>
-                  <option value="Nunavet">Nunavet</option>
-                  <option value="Ontario">Ontario</option>
-                  <option value="Prince Edward Island">Prince Edward Island</option>
-                  <option value="Quebec">Quebec</option>
-                  <option value="Saskatchewan">Saskatchewan</option>
-                  <option value="Yukon">Yukon</option>
-                </select>
+              <div class="product-item">
+                <a href="notebooks-geode.html">
+                  <figure>
+                    <img src="img/GeodeNotebook.jpg" alt="Ruled Notebook - Geode" style="max-width:100%">
+                    <p>Ruled Notebook - Geode</p>
+                    <p>$14.00</p>
+                  </figure>
+                </a>
               </div>
 
-              <div class="form-about">
-                <label>Postal Code:</label>
-                <input name="name" value="S3S 3S3" type="text">
+              <div class="product-item">
+                <a href="planners-mountain.html">
+                  <figure>
+                    <img src="img/MountainPlanner.jpg" alt="2018 12-Month Planner-Mountains" style="max-width:100%">
+                    <p>2018 12-Month Planner - Mountains</p>
+                    <p>$18.00</p>
+                  </figure>
+                </a>
               </div>
 
-              <div class="form-about">
-                <label>Country:</label>
-                <select>
-                  <option value="Canada">Canada</option>
-                  <option value="United States of America">United States of America</option>
-                </select>
+              <div class="product-item">
+                <a href="notebooks-brushstroke.html">
+                  <figure>
+                    <img src="img/BrushstrokeNotebook.jpg" alt="Ruled Notebook - Brushstroke" style="max-width:100%">
+                    <p>Ruled Notebook - Brushstroke</p>
+                    <p>$9.00</p>
+                  </figure>
+                </a>
               </div>
             </div>
-          </div>
-
-          <div class="center"><a href="#" class="button-link secondary">Save changes</a></div>
-
+          </section>
         </section>
 
-        <section>
-          <h2>My Past Orders</h2>
-          <div class="product-listings-container">
-            <div class="product-item">
-              <a href="planners-marble.html">
-                <figure>
-                  <img src="img/MarblePlanner.jpg" alt="2018 12-Month Planner-Marble" style="max-width:100%">
-                  <p>2018 12-Month Planner - Marble</p>
-                  <p>$24.00</p>
-                </figure>
-              </a>
-            </div>
-
-            <div class="product-item">
-              <a href="notebooks-geode.html">
-                <figure>
-                  <img src="img/GeodeNotebook.jpg" alt="Ruled Notebook - Geode" style="max-width:100%">
-                  <p>Ruled Notebook - Geode</p>
-                  <p>$14.00</p>
-                </figure>
-              </a>
-            </div>
-
-            <div class="product-item">
-              <a href="planners-mountain.html">
-                <figure>
-                  <img src="img/MountainPlanner.jpg" alt="2018 12-Month Planner-Mountains" style="max-width:100%">
-                  <p>2018 12-Month Planner - Mountains</p>
-                  <p>$18.00</p>
-                </figure>
-              </a>
-            </div>
-
-            <div class="product-item">
-              <a href="notebooks-brushstroke.html">
-                <figure>
-                  <img src="img/BrushstrokeNotebook.jpg" alt="Ruled Notebook - Brushstroke" style="max-width:100%">
-                  <p>Ruled Notebook - Brushstroke</p>
-                  <p>$9.00</p>
-                </figure>
-              </a>
-            </div>
-          </div>
-        </section>
-
-      </section>
+      </main>
 
       <footer>
         <div class="footer-item">
@@ -201,7 +202,7 @@
         </div>
 
         <div class="footer-item" role="contentinfo">
-        &copy; 2018 Plan Me. All Rights Reserved
+          &copy; 2018 Plan Me. All Rights Reserved.
         </div>
       </footer>
 
