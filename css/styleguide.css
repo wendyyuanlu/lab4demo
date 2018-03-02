@@ -156,3 +156,24 @@ section p {
     margin-right: 1%;
   }
 }
+
+
+
+@media (max-width: 1140px) {
+
+
+  nav input[type="checkbox"]#menu-expand2:checked ~ ul{
+    display: flex;
+    background: #6c82a4;
+    z-index: 1000;
+  }
+
+  nav label[for="menu-expand2"] {
+    display: block;
+    order: 2;
+    color: #1D6C7A;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: color 0.4s;
+  }
+}
