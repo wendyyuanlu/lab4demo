@@ -18,7 +18,7 @@
     <div class="container">
 
       <nav>
-        <div class="menu-browse" role="navigation" aria-label="main navigation">
+        <div class="menu-browse">
           <!--checkbox hack from: http://dabblet.com/gist/1506530-->
           <input type="checkbox" id="menu-expand">
           <label for="menu-expand"><img src="img/icon-menu.png" alt="Expand Menu"></label>
@@ -38,11 +38,13 @@
         </div>
       </nav>
 
-      <h1>Sitemap</h1>
-      <section>
-        <a href="img/sitemap.jpg" onclick="target='_blank'"><img src="img/sitemap.jpg" class="full-width" alt="Site Map"></a>
+      <main>
+        <h1>Sitemap</h1>
+        <section>
+          <a href="img/sitemap.jpg" onclick="target='_blank'"><img src="img/sitemap.jpg" class="full-width" alt="Site Map"></a>
 
-      </section>
+        </section>
+      </main>
 
       <footer>
         <div class="footer-item">
@@ -70,7 +72,7 @@
           </ul>
         </div>
 
-        <div class="footer-item">
+        <div class="footer-item" role="contentinfo">
           &copy; 2018 Plan Me. All Rights Reserved
         </div>
       </footer>

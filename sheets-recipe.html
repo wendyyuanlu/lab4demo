@@ -16,13 +16,12 @@
   <body>
     <div class="container">
       <nav>
-        <div class="menu-browse" role="navigation" aria-label="main navigation">
+        <div class="menu-browse">
           <!--checkbox hack from: http://dabblet.com/gist/1506530-->
           <input type="checkbox" id="menu-expand">
           <label for="menu-expand"><img src="img/icon-menu.png" alt="Expand Menu"></label>
 
           <ul>
-            <!--<li><a href="customize.html">Customize</a></li>-->
             <li><a href="planners.html">Planners</a></li>
             <li><a href="notebooks.html">Notebooks</a></li>
             <li><a href="sheets.html">Sheets</a></li>
@@ -33,7 +32,7 @@
           <a href="index.html"><img src="img/PlanMeLogo.png" alt="PlanMe Logo" class="logo"></a>
         </div>
 
-        <div class="menu-user" role="navigation" aria-label="user navigation">
+        <div class="menu-user">
           <ul>
             <li><a href="account.html"><img src="img/icon-account-x3.png" alt="My Account"><span>My Account</span></a></li>
             <li><a href="cart.html"><img src="img/icon-cart-x3.png" alt="Shopping Cart"><span>Shopping Cart</span></a></li>
@@ -41,102 +40,103 @@
         </div>
       </nav>
 
+      <main>
+        <section>
+        
+          <div class="product-detail-container">
+            <div class="product-detail-name small">
+              <h2>Meal Planning Sheet - Recipe Card</h2>
+              <p class="price">FREE</p>
+            </div>
 
-      <section>
+            <div class="product-detail-photo">
+              <img src="img/MealPlanningProduct1.jpg" alt="Recipe Card">
+            </div>
 
-        <div class="product-detail-container">
-          <div class="product-detail-name small">
-            <h2>Meal Planning Sheet - Recipe Card</h2>
-            <p class="price">FREE</p>
-          </div>
+            <div class="product-detail-detail-container">
+              <div class="product-detail-detail">
 
-          <div class="product-detail-photo">
-            <img src="img/MealPlanningProduct1.jpg" alt="Recipe Card">
-          </div>
+                <div class="product-detail-name large">
+                  <h2>Meal Planning Sheet - Recipe Card</h2>
+                  <p class="price">FREE</p>
+                </div>
 
-          <div class="product-detail-detail-container">
-            <div class="product-detail-detail">
+                <h3>Details:</h3>
+                <p>Create your own recipe book with this Recipe Card, it's the perfect ally in the kitchen to help you tackle any recipe.</p>
+                <ul>
+                    <li>Keep track of vital stats for all your recipes</li>
+                    <li>Plenty of space for recording essentials</li>
+                    <li>8" x 6"</li>
+                    <li>Digital download</li>
+                </ul>
+                <hr>
 
-              <div class="product-detail-name large">
-                <h2>Meal Planning Sheet - Recipe Card</h2>
-                <p class="price">FREE</p>
+                <br>
+                <a href="img/MealPlanningProductFull.jpg" class="button-link" onclick="target='_blank'">Download</a>
               </div>
-
-              <h3>Details:</h3>
-              <p>Create your own recipe book with this Recipe Card, it's the perfect ally in the kitchen to help you tackle any recipe.</p>
-              <ul>
-                  <li>Keep track of vital stats for all your recipes</li>
-                  <li>Plenty of space for recording essentials</li>
-                  <li>8" x 6"</li>
-                  <li>Digital download</li>
-              </ul>
-              <hr>
-
-              <br>
-              <a href="img/MealPlanningProductFull.jpg" class="button-link" onclick="target='_blank'">Download</a>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section>
-        <h2>Reviews</h2>
+        <section>
+          <h2>Reviews</h2>
 
-          <form>
-            <label>Leave a review</label>
-            <textarea name="textarea" style="height:150px;"></textarea>
-          </form>
+            <form>
+              <label>Leave a review</label>
+              <textarea name="textarea" style="height:150px;"></textarea>
+            </form>
 
-          <button type="button" class="button-secondary" >Submit Review</button>
+            <button type="button" class="button-secondary" >Submit Review</button>
 
-      </section>
+        </section>
 
-      <section>
-        <h2>More Like This</h2>
+        <section>
+          <h2>More Like This</h2>
 
-        <div class="product-listings-container">
-          <div class="product-item">
-            <a href="sheets-recipe.html">
-              <figure>
-                <img src="img/MealPlanningProduct2.jpg" alt="Meal Planning Sheet - Daily Menu" style="max-width:100%">
-                <p>Meal Planning Sheet - Daily Menu</p>
-                <p>FREE</p>
-              </figure>
-            </a>
+          <div class="product-listings-container">
+            <div class="product-item">
+              <a href="sheets-recipe.html">
+                <figure>
+                  <img src="img/MealPlanningProduct2.jpg" alt="Meal Planning Sheet - Daily Menu" style="max-width:100%">
+                  <p>Meal Planning Sheet - Daily Menu</p>
+                  <p>FREE</p>
+                </figure>
+              </a>
+            </div>
+
+            <div class="product-item">
+              <a href="sheets-recipe.html">
+                <figure>
+                  <img src="img/MealPlanningProduct3.jpg" alt="Meal Planning Sheet - Weekly Menu" style="max-width:100%">
+                  <p>Meal Planning Sheet - Weekly Menu</p>
+                  <p>FREE</p>
+                </figure>
+              </a>
+            </div>
+
+            <div class="product-item">
+              <a href="sheets-recipe.html">
+                <figure>
+                  <img src="img/MealPlanningProduct4.jpg" alt="Meal Planning Sheet - Weekly Meal Plan" style="max-width:100%">
+                  <p>Meal Planning Sheet - Weekly Meal Plan</p>
+                  <p>FREE</p>
+                </figure>
+              </a>
+            </div>
+
+            <div class="product-item">
+              <a href="sheets-recipe.html">
+                <figure>
+                  <img src="img/MealPlanningProduct5.jpg" alt="Meal Planning Sheet - Weekly Meals & Grocery" style="max-width:100%">
+                  <p>Meal Planning Sheet - Weekly Meals & Grocery</p>
+                  <p>FREE</p>
+                </figure>
+              </a>
+            </div>
+
           </div>
-
-          <div class="product-item">
-            <a href="sheets-recipe.html">
-              <figure>
-                <img src="img/MealPlanningProduct3.jpg" alt="Meal Planning Sheet - Weekly Menu" style="max-width:100%">
-                <p>Meal Planning Sheet - Weekly Menu</p>
-                <p>FREE</p>
-              </figure>
-            </a>
-          </div>
-
-          <div class="product-item">
-            <a href="sheets-recipe.html">
-              <figure>
-                <img src="img/MealPlanningProduct4.jpg" alt="Meal Planning Sheet - Weekly Meal Plan" style="max-width:100%">
-                <p>Meal Planning Sheet - Weekly Meal Plan</p>
-                <p>FREE</p>
-              </figure>
-            </a>
-          </div>
-
-          <div class="product-item">
-            <a href="sheets-recipe.html">
-              <figure>
-                <img src="img/MealPlanningProduct5.jpg" alt="Meal Planning Sheet - Weekly Meals & Grocery" style="max-width:100%">
-                <p>Meal Planning Sheet - Weekly Meals & Grocery</p>
-                <p>FREE</p>
-              </figure>
-            </a>
-          </div>
-
-        </div>
-      </section>
+        </section>
+      </main>
 
 
       <footer>
@@ -175,7 +175,7 @@
         </div>
 
         <div class="footer-item" role="contentinfo">
-        &copy; 2018 Plan Me. All Rights Reserved
+          &copy; 2018 Plan Me. All Rights Reserved
         </div>
       </footer>
 
